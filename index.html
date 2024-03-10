@@ -227,34 +227,21 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 										window.location.reload();
 									}
 
-									var flashvars = {
-										ad: "banner",
-										adurl: "",
-										showsurvey: "1",
-										threads: "4",
-										cdnconfig: "prod",
-										promo: ""
-										
-									};
-									var params = {
-										bgcolor: "#ffffff",
-										quality: "high",
-										menu: "false",
-										allowScriptAccess: "always",
-										scale: 'default',
-										salign: 'lt',
-										wmode: 'transparent'
-									};
-									var attributes = {
-										id: 'speedtest',
-										name: 'speedtest'
-									};
-
-									if (swfobject.hasFlashPlayerVersion("10.0.0")) {
-										// User has flash
-										swfobject.embedSWF("http://127.0.0.1/flash/speedtest.swf?v=352081", "flashcontent", "728", "450", "10.0.0", "flash/expressInstall.swf", flashvars, params, attributes);
-										//swfmacmousewheel.registerObject(attributes.id);
-									}
+		var flashvars = {
+			configExtension: "xml"
+            
+		};
+		var params = {
+			quality: "high",
+			bgcolor: "#ffffff",
+			allowScriptAccess: "always"
+		};
+		var attributes = {
+			id: "flashtest",
+			name: "flashtest"
+		};
+		swfobject.embedSWF("speedtest.swf?v=352081", "flashcontent", "728", "450", "10.0.0", false, flashvars, params, attributes);
+}
 
 								</script>
 				<div class="ad-eot" id="ad-eot"></div>
