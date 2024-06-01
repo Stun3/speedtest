@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/tipTip.css" media="screen" />
 
 	<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/layout.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/vcss/global.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/global.css" media="screen" />
 
 	<!--[if lte IE 6]>
 		<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/ie6.css?v=2012-11-23" media="screen" />
@@ -33,7 +33,7 @@
 	<meta property="og:title" content="Flash Speedtest.net by Ookla - Results" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Speedtest.net" />
-	<meta property="og:url" content="http://www.speedtest.net/results.php" />
+	<meta property="og:url" content="https://stun3.github.io/speedtest/results.html" />
 	<meta property="og:image" content="https://stun3.github.io/speedtest/images/share-logo.png" />
 	<meta name="twitter:card" content="app">
 	<meta name="twitter:site" content="@ookla">
@@ -45,7 +45,7 @@
 	<script type="text/javascript">
 		window.isBlocked = true;
 	</script>
-	<script type="text/javascript" src="javascript/ads.js"></script>
+	<script type="text/javascript" src="https://stun3.github.io/speedtest/javascript/ads.js"></script>
 
 	<script type='text/javascript'>
 	// load the google script.
@@ -88,9 +88,9 @@
 	
 	
 
-	<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/datepicker.css" media="screen" />
-<script type="text/javascript" src="https://stun3.github.io/speedtest/javascript/jquery.ui.datepicker.js"></script>
-<script type="text/javascript" src="https://stun3.github.io/speedtest/javascript/jquery.ui.core.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://c.speedtest.net/css/datepicker.css" media="screen" />
+<script type="text/javascript" src="http://c.speedtest.net/javascript/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="http://c.speedtest.net/javascript/jquery.ui.core.js"></script>
 <script type="text/javascript">
   // set date format
  $.datepicker.setDefaults({
@@ -113,7 +113,7 @@ function remove_result (result_id) {
 
 		 $.ajax({  
 		    type: "POST",  
-		    url:  "results.html",  
+		    url:  "results.php",  
 		    data: parms,  
 		    cache: false,  
 		    success: remove_success});
@@ -124,7 +124,7 @@ function unshare () {
 	var result = confirm("Your share url will be disabled and the old url will no longer work.  Are you sure you want unshare your results?");
 	
 	if (result) {
-		window.location = "results.html?a=unshare";
+		window.location = "results.php?a=unshare";
     }
 }
 
@@ -144,7 +144,7 @@ function load_more(current_page)
 	
 	 $.ajax({  
 	     type: "POST",  
-	     url:  "results.html",  
+	     url:  "results.php",  
 	     data: parms,  
 	     cache: false,  
 	     success: loadmore_success});
@@ -472,7 +472,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div id="nav">
 					<ul>
 						<li class="nav-advertise">
-	<a href="https://stun3.github.io/speedtest/partner-with-ookla"><i></i>&nbsp;Advertise</a>
+	<a href="/partner-with-ookla"><i></i>&nbsp;Advertise</a>
 </li>
 
 <li class="nav-host">
@@ -520,20 +520,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div><!--/header-container-->
 
 			<div id=container>
-<div class="alert-container"><div class="neutral-box alert"><p>If you have an account you must <a href='https://stun3.github.io/speedtest/user-login.html'>login</a> to see your results history.</p></div></div><!--/alert--><div class="ad-space ad-horizontal"></div><!--/ad-space-->
+<div class="alert-container"><div class="neutral-box alert"><p>If you have an account you must <a href='user-login.php'>login</a> to see your results history.</p></div></div><!--/alert--><div class="ad-space ad-horizontal"></div><!--/ad-space-->
 
 <div id="content">
 
 <div id="yr-header">
 	<h1>My Results</h1>
 	<a style='display:none;' id="yr-share" href="#?w=300" rel="modal-share" class="modal">Share This Page</a>
-	<a  id="yr-unshare" href="https://stun3.github.io/speedtest/results.html?a=share">Enable Sharing</a>
+	<a  id="yr-unshare" href="results.php?a=share">Enable Sharing</a>
 
 	<div id="modal-share" class="modal-block">
 		<h4>Share This Page</h4>
 		<p>Use one of the links below to share this entire results page with others. You can always stop sharing it via the Unshare button if you change your mind.</p>
 		<fieldset><label for="share-link">Share Link:</label>
-		<input name="share-link" id="" type="text" value="http://www.speedtest.net/results.php?sh=&ria=0" readonly="readonly" onclick="this.focus();this.select()"></fieldset>
+		<input name="share-link" id="" type="text" value="https://stun3.github.io/speedtest/results.html?sh=&ria=0" readonly="readonly" onclick="this.focus();this.select()"></fieldset>
 
 	<label>Share Elsewhere:</label>
 	<div class="modal-share-icons">
@@ -541,7 +541,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<li class="share-fb"><a href="https://www.facebook.com/dialog/feed?app_id=581657151866321&amp;link=http://www.speedtest.net/my-result/&amp;description=This%20is%20my%20Speedtest.net%20result.%20Compare%20your%20speed%20to%20mine!&amp;redirect_uri=http://www.speedtest.net&amp;name=Check%20out%20my%20Speedtest.net%20Result.%20What%27s%20Yours%3F" target="_blank">Facebook</a></li>
 	<li class="share-tw"><a href="https://twitter.com/share?text=Check%20out%20my%20Speedtest.net%20result!%20What%27s%20your%20speed%3F&amp;url=http%3A%2F%2Fwww.speedtest.net%2Fmy-result%2F&amp;related=ookla%3ACreators%20of%20Speedtest.net&amp;hashtags=speedtest" target="_blank">Twitter</a></li>
 	<li class="share-li"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.speedtest.net/my-result/&amp;title=Ookla Speedtest - The Global Broadband Speed Test&amp;summary=Check out my result history from Ookla Speedtest&amp;source=Speedtest.net" target="_blank">LinkedIn</a></li>
-	<li class="share-pn"><a href="http://pinterest.com/pin/create/button/?url=http://www.speedtest.net/my-result/&amp;media=http://www.speedtest.net/results.php?sh=&amp;description=Check out my result history from Ookla Speedtest" target="_blank">Pinterest</a></li>
+	<li class="share-pn"><a href="http://pinterest.com/pin/create/button/?url=http://www.speedtest.net/my-result/&amp;media=https://stun3.github.io/speedtest/results.html?sh=&amp;description=Check out my result history from Ookla Speedtest" target="_blank">Pinterest</a></li>
 	<li class="share-rd"><a href="http://reddit.com/submit?url=http://www.speedtest.net/my-result/&amp;title=Ookla Speedtest - The Global Broadband Speed Test" target="_blank">Reddit</a></li>
 	<li class="share-em"><a href="mailto:?subject=Check%20Out%20My%20Speedtest.net%20Connection%20Speed!&amp;body=This%20is%20my%20Speedtest.net%20connection%20speed.%20You%20should%20take%20a%20test%20too!%0A%0Ahttp%3A%2F%2Fwww.speedtest.net%2Fmy-result%2F%3Futm_source%3Dshare-page%26utm_medium%3Demail%26utm_campaign%3Dsharev1">Email</a></li>
 </ul>
@@ -561,7 +561,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="ip-dropdown">
 	<span class="ip" href="">Change</span>
 	<ul class="ips">
-		<li><a href='https://stun3.github.io/speedtest/results.html?ria=0'>ALL MY TESTS</a></li>
+		<li><a href='results.php?ria=0'>ALL MY TESTS</a></li>
 	</ul>
 	</div><!--/ip-dropdown-->
 
@@ -571,7 +571,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div id="yr-graph">
 
 	<ul id="comparison-tabs">
-		<li id="dl-comparison" class="current"><a href="https://stun3.github.io/speedtest/results.html?ct=d&ria=0&s=0">Download Comparison</a></li>
+		<li id="dl-comparison" class="current"><a href="results.php?ct=d&ria=0&s=0">Download Comparison</a></li>
 		<li id="ul-comparison" class=""><a href="?ct=u&ria=0&s=0">Upload Comparison</a></li>
 		<li id="server-comparison" class=""><a href="?ct=s&ria=0">Server Comparison</a></li>
 	</ul>
@@ -583,7 +583,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="server-dropdown">
 	<span class="server" href="">All Servers</span>
 	<ul class="servers">
-		<li><a href="https://stun3.github.io/speedtest/results.html?s=0&ria=0&ct=">All Servers</a></li>
+		<li><a href="results.php?s=0&ria=0&ct=">All Servers</a></li>
 	</ul>
 
 	</div><!--/server-dropdown-->
@@ -592,7 +592,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 		<form>
 		<label for="datepicker">Ignore Results Before </label>
-		<input type="text" id="datepicker" value="" onchange="window.location='https://stun3.github.io/speedtest/results.html?hd=' + this.value + '' + '&s=0';" />
+		<input type="text" id="datepicker" value="" onchange="window.location='results.php?hd=' + this.value + '' + '&s=0';" />
 		</form>
 
 		</div><!--/timeframe-dropdown-->
@@ -692,12 +692,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div id="yr-recent-results-options">
 			<a href="/csv.php?csv=1&ria=0&s=0" class="blue-link">Export Results</a>
 	</div><!--/yr-recent-results-options-->
-	<div id="yr-speedwave"><a href="https://stun3.github.io/speedtest/speedwave-control.php">Speedwave</a></div>
+	<div id="yr-speedwave"><a href="speedwave-control.php">Speedwave</a></div>
 
 
 		<table id="recent-results" cellspacing="0" cellpadding="0" border="0">
 			<thead>
-				<tr><th class='no-border delete-row-th'><span><img src="https://stun3.github.io/speedtest/images/icon-th-delete.png" class="delete-icon"></span></th><th><span><img src="https://stun3.github.io/speedtest/images/icon-th-sw.png" class="sw-icon"></span></th><th class='active'><a class='sort-url' href='results.php?o=asc&sb=date'> Date <img src='https://stun3.github.io/speedtest/images/bg-ascending.png' alt='ascending' /></a></th><th ><a class='sort-url' href='results.php?o=desc&sb=ipaddress'> IP Address </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=download'><img class="speed-icon" src="https://stun3.github.io/speedtest/images/icon-th-dl.png"> Download </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=upload'><img class="speed-icon" src="https://stun3.github.io/speedtest/images/icon-th-ul.png"> Upload </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=latency'><img class="speed-icon" src="https://stun3.github.io/speedtest/images/icon-th-ping.png"> Latency </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=server'> Server </a></th><th><span>Distance</span></th><th><span>Share</span></th></tr>
+				<tr><th class='no-border delete-row-th'><span><img src="https://stun3.github.io/speedtest/images/icon-th-delete.png" class="delete-icon"></span></th><th><span><img src="https://stun3.github.io/speedtest/images/icon-th-sw.png" class="sw-icon"></span></th><th class='active'><a class='sort-url' href='results.php?o=asc&sb=date'> Date <img src='images/bg-ascending.png' alt='ascending' /></a></th><th ><a class='sort-url' href='results.php?o=desc&sb=ipaddress'> IP Address </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=download'><img class="speed-icon" src="https://stun3.github.io/speedtest/images/icon-th-dl.png"> Download </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=upload'><img class="speed-icon" src="https://stun3.github.io/speedtest/images/icon-th-ul.png"> Upload </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=latency'><img class="speed-icon" src="https://stun3.github.io/speedtest/images/icon-th-ping.png"> Latency </a></th><th ><a class='sort-url' href='results.php?o=desc&sb=server'> Server </a></th><th><span>Distance</span></th><th><span>Share</span></th></tr>
 			</thead>
 			<tbody>
 				<tr class="even">
