@@ -1,6 +1,7 @@
-// sw.js - Intercepts the config request to inject your live network data
+// sw.js - Updated to catch both XML and PHP configurations
 self.addEventListener('fetch', function(event) {
-  if (event.request.url.includes('config.xml')) {
+  // Check for both the XML and the PHP file requests
+  if (event.request.url.includes('config.xml') || event.request.url.includes('speedtest-config.php')) {
     event.respondWith(
       Promise.all([
         fetch('https://ipwho.is/').then(r => r.json()),
@@ -10,10 +11,10 @@ self.addEventListener('fetch', function(event) {
         var realIP = ipData.ip || "Unknown IP";
         var realISP = (ipData.connection && ipData.connection.isp) || "Local ISP";
 
-        // This replaces the text your Flash player sees, keeping your layout identical
+        // Replace the placeholders
         var modifiedXml = xmlText
-          .replace('ip="yourip"', 'ip="' + realIP + '"')
-          .replace('isp="yourisp"', 'isp="' + realISP + '"');
+          .replace(/yourip/g, realIP)
+          .replace(/yourisp/g, realISP);
 
         return new Response(modifiedXml, {
           headers: { 'Content-Type': 'text/xml' }
