@@ -2151,3 +2151,135 @@ h3.location-present {
 #_evidon_banner {
 	background-color: #c8cfcf;
 }
+/* ==========================================================================
+   ADDED: OOKLA PARTNER/AUDIENCE PAGE STYLES (MISSING FROM ORIGINAL FILE)
+   ========================================================================== */
+
+/* Overrides the default grey background for the partner layout container */
+#generic.audience #container {
+    background: #ffffff !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Deep Plum Top Hero Section */
+.audienceHeader {
+    background: #251233 !important; 
+    padding: 60px 0 !important;
+    width: 100% !important;
+}
+
+/* Flex layout keeps columns neatly aligned side-by-side */
+.audienceHeader .audienceContainer-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.audienceHeader-heading {
+    width: 100% !important;
+    color: #ffffff !important;
+    font-size: 32px !important;
+    font-weight: bold !important;
+    margin-bottom: 30px !important;
+}
+
+.audienceHeader .audience-col1-2 {
+    width: 46% !important;
+}
+
+.audienceHeader .audience-col1-2 p {
+    color: #e1d7e8 !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+}
+
+/* The Testimonial Blockquote with the Orange Line */
+.audience-blockquote {
+    background: rgba(0, 0, 0, 0.25) !important;
+    border-left: 4px solid #f9a01b !important;
+    padding: 20px !important;
+    color: #ffffff !important;
+    font-style: italic !important;
+    margin-bottom: 10px !important;
+}
+
+.audience-blockquote-author {
+    color: #f9a01b !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+
+/* Main Body Content (White Area) */
+.audienceContent {
+    background: #ffffff !important;
+    padding: 60px 0 !important;
+    width: 100% !important;
+}
+
+.audienceContent .audienceContainer-row {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.audience-headingB {
+    width: 100% !important;
+    text-align: center !important;
+    color: #333333 !important;
+    font-size: 18px !important;
+    margin-bottom: 50px !important;
+}
+
+.audienceContent .audienceContainer-row--last {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.audienceContent .audience-col1-2 {
+    width: 45% !important;
+    text-align: center !important;
+}
+
+.audience-headingA {
+    color: #1a1a1a !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    margin-bottom: 15px !important;
+}
+
+.audienceContent .audience-col1-2 p {
+    color: #666666 !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+}
+
+/* Cyan Call to Action Buttons */
+.align-center {
+    text-align: center !important;
+    margin-top: 25px !important;
+}
+
+.audienceBtn {
+    display: inline-block !important;
+    background-color: #00b2ed !important;
+    padding: 12px 45px !important;
+    border-radius: 25px !important;
+    text-decoration: none !important;
+}
+
+.audienceBtn:hover {
+    background-color: #0099cc !important;
+}
+
+.audienceBtn-campaign {
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+}
