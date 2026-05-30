@@ -19,6 +19,9 @@
 	<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/layout-home.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/global.css" media="screen" />
 
+	<!--[if lte IE 6]>
+		<link rel="stylesheet" type="text/css" href="https://stun3.github.io/speedtest/css/ie6.css?v=2012-11-23" media="screen" />
+		<![endif]-->
 	<link rel="canonical" href="http://www.speedtest.net/" />
 
 	
@@ -55,13 +58,6 @@
     "prebid": true
   }];
 </script>
-	<script type="text/javascript">
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js').then(function() {
-                console.log("Interceptor active");
-            });
-        }
-    </script>
 	</head>
 	<body id="home" class="lowerboard body-ad-tower-stack">
 
@@ -73,7 +69,9 @@
 
 				<div id="logo">
 					<a href="/speedtest">Ookla Speedtest</a>
-				</div><div id="nav">
+				</div><!--/logo-->
+
+				<div id="nav">
 					<ul>
 						<li class="nav-advertise">
 	<a href="https://stun3.github.io/speedtest/partner-with-ookla"><i></i>&nbsp;Advertise</a>
@@ -100,7 +98,9 @@
 <li class="nav-account"><a href="https://stun3.github.io/speedtest/user-register.html"><i></i>&nbsp;Create Account</a></li>
 
 					</ul>
-				</div><div class="login-box">
+				</div><!--/nav-->
+
+				<div class="login-box">
 	<form method="post" action="https://legacy.speedtest.net/user-login.php" >
 		<fieldset>
 			<input id="action" type="hidden" name="action" value="login" />
@@ -113,9 +113,15 @@
 			<div id="form-submit-login-menu"><input type="submit" value="Login"></input></div>
 		</fieldset>
 	</form>
-</div><div class="try-st4"><a href="http://www.speedtest.net/">Try the new Speedtest</a></div>
+</div><!--/login-box-->
 
-			</div></div><div id=home-header-container>
+
+				<div class="try-st4"><a href="http://www.speedtest.net/">Try the new Speedtest</a></div>
+
+			</div><!--/header-->
+			</div><!--/header-container-->
+
+			<div id=home-header-container>
 
 <div id="home-content-container">
 	<div id="home-content">
@@ -123,12 +129,17 @@
 
 		<div class="test-area-wrapper ad-stack">
 			<div id="ad-top-wrap">
-				<div class="ad-space ad-horizontal" id="ad-horizontal"></div><div class="ad-half-banner"></div>
+				<div class="ad-space ad-horizontal" id="ad-horizontal"></div><!--/ad-space-->
+				<div class="ad-half-banner"></div>
 			</div>
 
 			<div class="ad-vertical-left"><div class="ad-vertical-container ad-vertical-tower no-shadow">
-	<div class="ad-space ad-vertical"></div></div><div class="left-skyscraper">
-</div></div>
+	<div class="ad-space ad-vertical"></div><!--/ad-space-->
+</div><!--/ad-vertical-container-->
+
+<div class="left-skyscraper">
+</div><!--/ad-vertical-container-->
+</div>
 
 			<div id="st-flash">
 				<div class="dfp-ab-leaderboard" id="dfp-ab-leaderboard"></div>
@@ -165,9 +176,13 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 										window.location.reload();
 									}
 
+									var flashvars = {
+                                        configExtension: "xml"
+										
+									};
 									var params = {
 		                            	quality: "high",
-		                               	bgcolor: "#ffffff",
+		                             	bgcolor: "#ffffff",
 			                            allowScriptAccess: "always"
 									};
 									var attributes = {
@@ -176,28 +191,9 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 									};
 
 									if (swfobject.hasFlashPlayerVersion("10.0.0")) {
-										// Fetch real connection properties prior to mounting application
-										fetch('https://ipwho.is/')
-											.then(function(response) { return response.json(); })
-											.then(function(data) {
-												var flashvars = {
-													configExtension: "xml",
-													ip: data.ip || "Unknown IP",
-													isp: (data.connection && data.connection.isp) || "Local Network"
-												};
-												
-												swfobject.embedSWF("https://stun3.github.io/speedtest/flash/speedtest.swf?v=352081", "flashcontent", "728", "450", "10.0.0", false, flashvars, params, attributes);
-											})
-											.catch(function(error) {
-												console.error("Dynamic lookup intercept failed:", error);
-												// Clean failover attributes if fallback occurs
-												var flashvars = {
-													configExtension: "xml",
-													ip: "Offline",
-													isp: "Unknown Provider"
-												};
-												swfobject.embedSWF("https://stun3.github.io/speedtest/flash/speedtest.swf?v=352081", "flashcontent", "728", "450", "10.0.0", false, flashvars, params, attributes);
-											});
+										// User has flash
+										swfobject.embedSWF("https://stun3.github.io/speedtest/flash/speedtest.swf?v=352081", "flashcontent", "728", "450", "10.0.0", false, flashvars, params, attributes);
+										//swfmacmousewheel.registerObject(attributes.id);
 									}
 
 								</script>
@@ -206,7 +202,8 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 				<div class="search-eot" id="search-eot">
 					<div class="search-eot-search">
 									<h3>Search for More Speed</h3>
-			<form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+			<!-- adsense search -->
+				<form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
 					<div>
 						<input type="hidden" name="cx" value="partner-pub-1273248303616359:2003744413" />
 						<input type="hidden" name="ie" value="UTF-8" />
@@ -215,9 +212,11 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 					</div>
 				</form>
 				<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
-			</div>
+			<!-- end adsense search -->
+					</div>
 					<div class="search-eot-ad" id="search-eot-ad">
-						</div>
+						<!-- 350x40 ad -->
+					</div>
 				</div>
 				<div class="search-eot" id="bbsearch-eot">
 					<div class="search-eot-search">
@@ -225,12 +224,15 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 					</div>
 				</div>
 				<div class="search-eot" id="ybn-search-eot">
-						</div>
+						<!-- 350x125 ad -->
+				</div>
 				<div class="dfp-eot-small" id="dfp-eot-small"></div>
 				<div class="in-test-ad"></div>
 				<div class="dfp-in-test-ad"></div>
 				<div class="search-eot" id="eot-ad-native"></div>
-			</div><div class="ad-vertical-right"><div class="ad-vertical-container ad-vertical-stacked no-shadow">
+			</div><!--/st-flash-->
+
+			<div class="ad-vertical-right"><div class="ad-vertical-container ad-vertical-stacked no-shadow">
 	<div class="alt-promo-container">
   <ul>
     
@@ -261,7 +263,10 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 		<div class="ad-vertical-stack-ad ad-vertical-stack-ad-1"></div>
 		<div class="ad-vertical-stack-ad ad-vertical-stack-ad-2"></div>
 		<div class="right-skyscraper"></div>
-	</div></div></div>
+	</div><!--/ad-space-->
+</div><!--/ad-vertical-container-->
+
+</div>
 
 			<div class="lower-cta">
 				<div class="aos-btn-home">
@@ -276,7 +281,9 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 				</div>
 			</div>
 		</div>
-	</div><div class="lower-simple">
+	</div><!--/home-content-->
+
+	<div class="lower-simple">
 	<div class="lower-features">
 		<div class="row">
 			<div class="left-third">
@@ -328,7 +335,10 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 
 	
 
-</div></div><div id="footer">
+</div><!--/home-content-container-->
+</div><!--/container-->
+
+<div id="footer">
 
 	<div class="footer-content-wrapper">
 
@@ -365,7 +375,9 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 				<li><a target="_blank" href="http://www.toolbox.com/">Toolbox</a></li>
 			</ul>
 
-		</div><div id="footer-ookla">
+		</div><!--/footer-nav-->
+
+		<div id="footer-ookla">
 			<div id="footer-logo">
 				<a href="http://ookla.com/"></a>
 			</div>
@@ -396,7 +408,16 @@ new Flash-free site. Thanks in advance for your patience and feedback.
 				<a href="/switch_language.php?lang=ru">RU</a> |
 				<a href="/switch_language.php?lang=sv">SV</a>
 			</div>
-		</div><iframe id="iframedl" name="iframedl" frameborder="0"></iframe>
+		</div><!--/footer-ookla-->
 
-	</div></div></body>
+		<iframe id="iframedl" name="iframedl" frameborder="0"></iframe>
+
+	</div><!--/footer-content-wrapper-->
+
+	
+
+</div><!--/footer-->
+
+
+</body>
 </html>
