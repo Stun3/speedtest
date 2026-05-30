@@ -41,7 +41,7 @@ h5 { font-size: 12px; line-height: 16px; }
 }
 
 #home { background-color: #dfe6e6; }
-#home-content-container { background: #dfe6e6 url(../images/st-sprite_home.png?v=20150803) 0 -1306px repeat-x; }
+#home-content-container { background: #dfe6e6 url(../speedtest/images/st-sprite_home.png?v=20150803) 0 -1306px repeat-x; }
 
 #home-content {
 	width: auto;
@@ -75,7 +75,7 @@ h5 { font-size: 12px; line-height: 16px; }
 .stbtn-small:hover { background-color: #65cc00;}
 .stbtn-small:active { background: none; }
 
-#ispprofile, #four-o-four, #isp-sitemap, #location-sitemap, #share, #speedwave, #sw-control, #your-results, #support, #mobile, #link-to-us, #register, #privacy, #mini, #host, #contact, #settings, #login, #about, #generic { background: #dfe6e6 url(../images/bg-sub.png) repeat-x center -20px; }
+#ispprofile, #four-o-four, #isp-sitemap, #location-sitemap, #share, #speedwave, #sw-control, #your-results, #support, #mobile, #link-to-us, #register, #privacy, #mini, #host, #contact, #settings, #login, #about, #generic { background: #dfe6e6 url(../speedtest/images/bg-sub.png) repeat-x center -20px; }
 
 #container {
 	margin: 0 auto;
@@ -117,7 +117,7 @@ h5 { font-size: 12px; line-height: 16px; }
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	background: url(../images/st-sprite_home.png?v=20150803) -493px -91px no-repeat;
+	background: url(../speedtest/images/st-sprite_home.png?v=20150803) -493px -91px no-repeat;
 	margin: 17px 30px 0 0;
 }
 
@@ -155,7 +155,7 @@ h5 { font-size: 12px; line-height: 16px; }
 	height: 14px;
 	line-height: 10px; /* ie6 */
 	text-indent: -9999px;
-	background: url(../images/st-sprite.png) -589px -42px no-repeat;
+	background: url(../speedtest/images/st-sprite.png) -589px -42px no-repeat;
 }
 
 #whats-new a:hover { background-position: -589px -56px; }
@@ -208,7 +208,7 @@ h5 { font-size: 12px; line-height: 16px; }
 	overflow: hidden;
 	padding: 0;
 	margin: 1px 0 0 0;
-	background: url(../images/st-sprite_home.png?v=20150803) 0 -300px no-repeat;
+	background: url(../speedtest/images/st-sprite_home.png?v=20150803) 0 -300px no-repeat;
 }
 #nav ul li a:hover {
 	color: #00daff;
@@ -252,7 +252,7 @@ h5 { font-size: 12px; line-height: 16px; }
 
 /* login dropdown */
 #login-menu {
-	background: url(../images/st-sprite_home.png?v=20150803) -608px -250px no-repeat;
+	background: url(../speedtest/images/st-sprite_home.png?v=20150803) -608px -250px no-repeat;
 	width: 76px;
 	/* #slidedownheader */
 	/*height: 20px;*/
@@ -261,7 +261,7 @@ h5 { font-size: 12px; line-height: 16px; }
 	text-align: center;
 }
 
-#login-menu:hover { background: url(../images/st-sprite_home.png?v=20150803) -608px -270px no-repeat; }
+#login-menu:hover { background: url(../speedtest/images/st-sprite_home.png?v=20150803) -608px -270px no-repeat; }
 
 .login-title {
 	color: #00d3e0;
@@ -437,7 +437,7 @@ h5 { font-size: 12px; line-height: 16px; }
 
 /* language selection */
 #lang {
-	background: url(../images/st-sprite_home.png?v=20150803) -156px -250px no-repeat;
+	background: url(../speedtest/images/st-sprite_home.png?v=20150803) -156px -250px no-repeat;
 	width: 45px;
 	/* #slidedownheader */
 	/*height: 20px;*/
@@ -446,7 +446,7 @@ h5 { font-size: 12px; line-height: 16px; }
 	text-align: center;
 }
 
-#lang:hover { background: url(../images/st-sprite_home.png?v=20150803) -156px -270px no-repeat; }
+#lang:hover { background: url(../speedtest/images/st-sprite_home.png?v=20150803) -156px -270px no-repeat; }
 
 .current-lang {
 	color: #c7c7c7;
@@ -601,11 +601,11 @@ div#createaccount a:hover {
 	height: 625px;
 	margin: 14px 0 0 0;
 	float: left;
-	/*background: url(../images/placeholder-ad-vertical.png) no-repeat;*/
+	/*background: url(../speedtest/images/placeholder-ad-vertical.png) no-repeat;*/
 }
 
 /* shorter tower */
-/*.no-shadow { background: url(../images/placeholder-ad-vertical-noshad.png) no-repeat; }*/
+/*.no-shadow { background: url(../speedtest/images/placeholder-ad-vertical-noshad.png) no-repeat; }*/
 .short { height: 444px; }
 
 /* 160x40 button */
@@ -626,7 +626,7 @@ div#createaccount a:hover {
 	white-space: no-wrap;
 	overflow: hidden;
 	border-radius: 5px;
-	background-image: url(../images/st-sprite_home.png?v=20150803);
+	background-image: url(../speedtest/images/st-sprite_home.png?v=20150803);
 	background-repeat: no-repeat;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
@@ -668,9 +668,9 @@ div#createaccount a:hover {
 .alert h2 { text-transform: uppercase; }
 .alert p { margin: 10px auto; line-height: 19px; width: 90%; }
 
-.error-box { border: 1px solid #ff0000; background: url(../images/bg-alert.png); }
-.neutral-box { border: 1px solid #33ccff; background: url(../images/bg-alert-neutral.png); }
-.good-box { border: 1px solid #99cc00; background: url(../images/bg-alert-good.png); }
+.error-box { border: 1px solid #ff0000; background: url(../speedtest/images/bg-alert.png); }
+.neutral-box { border: 1px solid #33ccff; background: url(../speedtest/images/bg-alert-neutral.png); }
+.good-box { border: 1px solid #99cc00; background: url(../speedtest/images/bg-alert-good.png); }
 
 .error-box a:link { font-weight: bold; color: #ff0000; }
 .neutral-box a:link { font-weight: bold; color: #33ccff; }
@@ -696,7 +696,7 @@ div#createaccount a:hover {
 /* Pagination
 ------------------------------------------------------- */
 
-#leaderboard tr.pagination-container td.pagination { padding: 16px 0; background: #dfe6e6 url(../images/bg-more-sw-results.png) repeat-x top center; }
+#leaderboard tr.pagination-container td.pagination { padding: 16px 0; background: #dfe6e6 url(../speedtest/images/bg-more-sw-results.png) repeat-x top center; }
 
 .pagination a, .pagination span { margin: 0 2px 0 3px; }
 
@@ -880,17 +880,17 @@ img.btn_close { float: right; margin: -38px -38px 0 0; }
 	color: #33ccff;
 }
 
-.modal-share-icons ul li.share-fb { background: url(../images/share-fb.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-de { background: url(../images/share-de.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-tw { background: url(../images/share-tw.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-su { background: url(../images/share-su.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-ms { background: url(../images/share-ms.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-mx { background: url(../images/share-mx.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-li { background: url(../images/share-li.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-rd { background: url(../images/share-rd.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-dg { background: url(../images/share-dg.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-em { background: url(../images/share-em.gif) left no-repeat; padding-left: 22px; }
-.modal-share-icons ul li.share-pn { background: url(../images/share-pn.png) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-fb { background: url(../speedtest/images/share-fb.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-de { background: url(../speedtest/images/share-de.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-tw { background: url(../speedtest/images/share-tw.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-su { background: url(../speedtest/images/share-su.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-ms { background: url(../speedtest/images/share-ms.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-mx { background: url(../speedtest/images/share-mx.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-li { background: url(../speedtest/images/share-li.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-rd { background: url(../speedtest/images/share-rd.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-dg { background: url(../speedtest/images/share-dg.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-em { background: url(../speedtest/images/share-em.gif) left no-repeat; padding-left: 22px; }
+.modal-share-icons ul li.share-pn { background: url(../speedtest/images/share-pn.png) left no-repeat; padding-left: 22px; }
 
 /* best results - share image */
 #yr-best-results .mini-share label { margin: 10px 0 0 2px; }
@@ -939,7 +939,7 @@ img.btn_close { float: right; margin: -38px -38px 0 0; }
 .blue-cta {
 	width: 210px;
 	height: 51px;
-	background: url(../images/st-sprite.png) -626px -522px no-repeat;
+	background: url(../speedtest/images/st-sprite.png) -626px -522px no-repeat;
 }
 
 .blue-cta a {
@@ -952,12 +952,12 @@ img.btn_close { float: right; margin: -38px -38px 0 0; }
 	text-shadow: -1px -1px 1px #333333;
 }
 
-.blue-cta a:hover { color: #ffffff; background: url(../images/st-sprite.png) -626px -577px no-repeat; }
+.blue-cta a:hover { color: #ffffff; background: url(../speedtest/images/st-sprite.png) -626px -577px no-repeat; }
 
 .blue-cta-med {
 	width: 132px;
 	height: 31px;
-	background: url(../images/st-sprite.png) -844px -631px no-repeat;
+	background: url(../speedtest/images/st-sprite.png) -844px -631px no-repeat;
 }
 
 .blue-cta-med a {
@@ -970,12 +970,12 @@ img.btn_close { float: right; margin: -38px -38px 0 0; }
 	text-shadow: -1px -1px 1px #333333;
 }
 
-.blue-cta-med a:hover { color: #ffffff; background: url(../images/st-sprite.png) -844px -666px no-repeat; }
+.blue-cta-med a:hover { color: #ffffff; background: url(../speedtest/images/st-sprite.png) -844px -666px no-repeat; }
 
 .blue-cta-med-gray button {
 	width: 133px;
 	height: 31px;
-	background: url(../images/st-sprite.png) -844px -701px no-repeat;
+	background: url(../speedtest/images/st-sprite.png) -844px -701px no-repeat;
 	border: none;
 }
 
@@ -994,7 +994,7 @@ img.btn_close { float: right; margin: -38px -38px 0 0; }
 	height: 25px;
 	float: left;
 	margin: 7px 0 0 0;
-	background: url(../images/st-sprite.png) -844px -522px no-repeat;
+	background: url(../speedtest/images/st-sprite.png) -844px -522px no-repeat;
 }
 
 .blue-cta-small a {
@@ -1006,14 +1006,14 @@ img.btn_close { float: right; margin: -38px -38px 0 0; }
 	text-shadow: -1px -1px 1px #888888;
 }
 
-.blue-cta-small:hover { background: url(../images/st-sprite.png) -844px -549px no-repeat; }
+.blue-cta-small:hover { background: url(../speedtest/images/st-sprite.png) -844px -549px no-repeat; }
 
 .blue-cta-smallest {
 	width: 36px;
 	height: 22px;
 	float: left;
 	margin: -2px 0 0 8px;
-	background: url(../images/st-sprite.png) -844px -579px no-repeat;
+	background: url(../speedtest/images/st-sprite.png) -844px -579px no-repeat;
 }
 
 .blue-cta-smallest a {
@@ -1025,7 +1025,7 @@ img.btn_close { float: right; margin: -38px -38px 0 0; }
 	text-shadow: -1px -1px 1px #888888;
 }
 
-.blue-cta-smallest:hover { background: url(../images/st-sprite.png) -844px -606px no-repeat; }
+.blue-cta-smallest:hover { background: url(../speedtest/images/st-sprite.png) -844px -606px no-repeat; }
 
 a.blue-link {
 	background-color: #000000;
@@ -1147,7 +1147,7 @@ div.footer-content-wrapper > div {
 	display: block;
 	width: 180px;
 	height: 60px;
-	background-image: url(../images/logo-about-ookla-180.png);
+	background-image: url(../speedtest/images/logo-about-ookla-180.png);
 	background-repeat: no-repeat;
 	background-size: 180px;
 	text-indent: 100%;
@@ -1204,7 +1204,7 @@ div.go-arrow {
 	position: absolute;
 	width: 83px;
 	height: 76px;
-	background-image: url(../images/download-arrow.png);
+	background-image: url(../speedtest/images/download-arrow.png);
 	background-repeat: no-repeat;
 	left: 100px;
 	bottom: 500px;
@@ -1380,7 +1380,7 @@ div.search-eot-with-ad .search-eot-ad {
 }
 
 #search-eot input[type="text"] {
-	background-image: url(../images/google_custom_search_watermark.gif);
+	background-image: url(../speedtest/images/google_custom_search_watermark.gif);
 	background-position: center left;
 	background-repeat: no-repeat;
 }
@@ -1439,7 +1439,7 @@ h3.location-present {
 /*native-eot-ad css for domain search form -- native_eot_ad.html */
 
 #native-eot-ad {
-	background-image: url(../images/domain-ad-form.png);
+	background-image: url(../speedtest/images/domain-ad-form.png);
 }
 
 #native-eot-ad h3 {
@@ -1493,7 +1493,7 @@ h3.location-present {
 .lowerboard #login-menu,
 .lowerboard #login-menu:hover,
 .lowerboard #lang,
-.lowerboard #lang:hover { background-image: url(../images/st-sprite_home.png?v=20150803); }
+.lowerboard #lang:hover { background-image: url(../speedtest/images/st-sprite_home.png?v=20150803); }
 
 .lowerboard #nav ul li.last { background-image: none; }
 
@@ -1605,7 +1605,7 @@ h3.location-present {
 .iphone-img {
 	width: 192px;
 	height: 404px;
-	background-image: url(../images/placeholder-mobile-iphone.png);
+	background-image: url(../speedtest/images/placeholder-mobile-iphone.png);
 	-webkit-background-size: 192px 404px;
 	-moz-background-size: 192px 404px;
 	background-size: 192px 404px;
@@ -1615,7 +1615,7 @@ h3.location-present {
 .amazon-img {
 	width: 233px;
 	height: 478px;
-	background-image: url(../images/placeholder-mobile-amazon.png);
+	background-image: url(../speedtest/images/placeholder-mobile-amazon.png);
 	-webkit-background-size: 233px 478px;
 	-moz-background-size: 233px 478px;
 	background-size: 233px 478px;
@@ -1625,7 +1625,7 @@ h3.location-present {
 .android-img {
 	width: 243px;
 	height: 375px;
-	background-image: url(../images/placeholder-mobile-android.png);
+	background-image: url(../speedtest/images/placeholder-mobile-android.png);
 	-webkit-background-size: 243px 375px;
 	-moz-background-size: 243px 375px;
 	background-size: 243px 375px;
@@ -1635,7 +1635,7 @@ h3.location-present {
 .windows-img {
 	width: 192px;
 	height: 349px;
-	background-image: url(../images/placeholder-mobile-windows.png);
+	background-image: url(../speedtest/images/placeholder-mobile-windows.png);
 	-webkit-background-size: 192px 349px;
 	-moz-background-size: 192px 349px;
 	background-size: 192px 349px;
@@ -1645,7 +1645,7 @@ h3.location-present {
 .mobile-ico{
 	width: 124px;
 	height: 124px;
-	background-image: url(../images/placeholder-mobile-header.png);
+	background-image: url(../speedtest/images/placeholder-mobile-header.png);
 	-webkit-background-size: 124px 124px;
 	-moz-background-size: 124px 124px;
 	background-size: 124px 124px;
@@ -1877,28 +1877,28 @@ h3.location-present {
 
 	#logo a,
 	.lowerboard #logo a {
-		background: url(../images/speedtest-logo-white.svg) 0 0 no-repeat;
+		background: url(../speedtest/images/speedtest-logo-white.svg) 0 0 no-repeat;
 		background-size: 134px 18px;
 	}
 
 	.iphone-img {
-		background-image: url(../images/placeholder-mobile-iphone@2x.png);
+		background-image: url(../speedtest/images/placeholder-mobile-iphone@2x.png);
 	}
 
 	.amazon-img {
-		background-image: url(../images/placeholder-mobile-amazon@2x.png);
+		background-image: url(../speedtest/images/placeholder-mobile-amazon@2x.png);
 	}
 
 	.android-img {
-		background-image: url(../images/placeholder-mobile-android@2x.png);
+		background-image: url(../speedtest/images/placeholder-mobile-android@2x.png);
 	}
 
 	.windows-img {
-		background-image: url(../images/placeholder-mobile-windows@2x.png);
+		background-image: url(../speedtest/images/placeholder-mobile-windows@2x.png);
 	}
 
 	.mobile-ico{
-			background-image: url(../images/placeholder-mobile-header@2x.png);
+			background-image: url(../speedtest/images/placeholder-mobile-header@2x.png);
 	}
 
 }
@@ -1929,7 +1929,7 @@ h3.location-present {
 	width: 80px;
 	height: 80px;
 	float: left;
-	background-image: url(../images/sprite-alt-icons.png);
+	background-image: url(../speedtest/images/sprite-alt-icons.png);
 }
 
                    .alt-promo-icon-star    { background-position: 0 0; }
