@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
 <servers>
-<server url="http://127.0.0.1/http/upload.php" lat="46.4763" lon="15.6332" name="DXing" country="Slovenia" cc="SI" sponsor="DXing Slovenija" id="11368"  host="http://127.0.0.1:80" />
 <server url="http://speedo.eltele.no/speedtest/upload.php" lat="69.9403" lon="23.3106" name="Alta" country="Norway" cc="NO" sponsor="Eltele AS" id="3433"  host="speedo.eltele.no:8080" />
 <server url="http://ookla.trollfjord.no/speedtest/upload.php" lat="68.5656" lon="14.9042" name="Stokmarknes" country="Norway" cc="NO" sponsor="Trollfjord Broadband AS" id="4755"  url2="http://ookla01.trollfjord.no/speedtest/upload.php" host="ookla.trollfjord.no:8080" />
 <server url="http://speed.smartnet.is/speedtest/upload.php" lat="66.0751" lon="-23.1212" name="Isafjordur" country="Iceland" cc="IS" sponsor="Snerpa" id="3644"  url2="http://speed2.smartnet.is/speedtest/upload.php" host="speed.smartnet.is:8080" />
