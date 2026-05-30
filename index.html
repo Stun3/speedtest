@@ -55,6 +55,13 @@
     "prebid": true
   }];
 </script>
+	<script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').then(function() {
+                console.log("Interceptor active");
+            });
+        }
+    </script>
 	</head>
 	<body id="home" class="lowerboard body-ad-tower-stack">
 
