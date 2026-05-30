@@ -1,5 +1,15 @@
 <settings>
 <servers>
+<server url="http://speedtest.fer-net.sk:8080/speedtest/upload.php" lat="48.6380" lon="17.1442" name="Šaštín-Stráže" country="Slovakia" cc="SK" sponsor="FÉRnet" id="71234" host="speedtest.fer-net.sk:8080"/>
+<server url="http://speedtest.telematica.at:8080/speedtest/upload.php" lat="48.2088" lon="16.3726" name="Vienna" country="Austria" cc="AT" sponsor="Telematica" id="53528" host="speedtest.telematica.at:8080"/>
+<server url="http://speedtest.nessus.at:8080/speedtest/upload.php" lat="48.2088" lon="16.3726" name="Vienna" country="Austria" cc="AT" sponsor="Nessus GmbH (10G Uplink)" id="3744" host="speedtest.nessus.at:8080"/>
+<server url="http://speedtest.netcup.at:8080/speedtest/upload.php" lat="48.2088" lon="16.3726" name="Vienna" country="Austria" cc="AT" sponsor="netcup GmbH" id="60470" host="speedtest.netcup.at:8080"/>
+<server url="http://speedtest0401.anexia-it.com:8080/speedtest/upload.php" lat="48.2088" lon="16.3726" name="Vienna" country="Austria" cc="AT" sponsor="Anexia" id="12777" host="speedtest0401.anexia-it.com:8080"/>
+<server url="http://speedtest.kraftcom.at:8080/speedtest/upload.php" lat="48.2088" lon="16.3726" name="Vienna" country="Austria" cc="AT" sponsor="KraftCom Service GmbH" id="15904" host="speedtest.kraftcom.at:8080"/>
+<server url="http://st1.datagram.sk:8080/speedtest/upload.php" lat="48.4333" lon="17.8033" name="Hlohovec" country="Slovakia" cc="SK" sponsor="SihotNET s.r.o." id="6669" host="st1.datagram.sk:8080"/>
+<server url="http://speedtest.nevernet.sk:8080/speedtest/upload.php" lat="48.3097" lon="18.0905" name="Jelenec" country="Slovakia" cc="SK" sponsor="Nevernet" id="70200" host="speedtest.nevernet.sk:8080"/>
+<server url="http://speedtest1.konfer.net:8080/speedtest/upload.php" lat="47.9926" lon="18.2642" name="Dvory nad Žitavou" country="Slovakia" cc="SK" sponsor="KONFER net" id="16160" host="speedtest1.konfer.net:8080"/>
+<server url="http://speedtest.net.vutbr.cz:8080/speedtest/upload.php" lat="49.1953" lon="16.6083" name="Brno" country="Czechia" cc="CZ" sponsor="Brno University of Technology" id="64446" host="speedtest.net.vutbr.cz:8080"/>
 <server url="http://speedo.eltele.no/speedtest/upload.php" lat="69.9403" lon="23.3106" name="Alta" country="Norway" cc="NO" sponsor="Eltele AS" id="3433"  host="speedo.eltele.no:8080" />
 <server url="http://ookla.trollfjord.no/speedtest/upload.php" lat="68.5656" lon="14.9042" name="Stokmarknes" country="Norway" cc="NO" sponsor="Trollfjord Broadband AS" id="4755"  url2="http://ookla01.trollfjord.no/speedtest/upload.php" host="ookla.trollfjord.no:8080" />
 <server url="http://speed.smartnet.is/speedtest/upload.php" lat="66.0751" lon="-23.1212" name="Isafjordur" country="Iceland" cc="IS" sponsor="Snerpa" id="3644"  url2="http://speed2.smartnet.is/speedtest/upload.php" host="speed.smartnet.is:8080" />
