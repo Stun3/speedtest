@@ -21,7 +21,7 @@
 	margin: 20px 20px 0 0; 
 	text-transform: uppercase;
 	width: 600px;
-	/*background: url(../speedtest/images/bg-sw-icon.png) left no-repeat;
+	/*background: url(../images/bg-sw-icon.png) left no-repeat;
 	padding: 0 0 0 34px;*/
 }
 
@@ -58,12 +58,12 @@ a#sw-share {
 	margin: 10px 0 0 0; 
 	color: #ffffff; 
 	text-transform: uppercase;
-	background: url(../speedtest/images/st-sprite.png) -722px -73px no-repeat;
+	background: url(../images/st-sprite.png) -722px -73px no-repeat;
 	width: 130px; 
 	height: 17px; 
 }
 
-a#sw-share:hover { background: url(../speedtest/images/st-sprite.png) -589px -92px no-repeat; }
+a#sw-share:hover { background: url(../images/st-sprite.png) -589px -92px no-repeat; }
 
 a#edit-wave { 
 	display: block; 
@@ -75,12 +75,12 @@ a#edit-wave {
 	margin: 10px 0 0 12px; 
 	color: #ffffff; 
 	text-transform: uppercase;
-	background: url(../speedtest/images/st-sprite.png) -589px -73px no-repeat;
+	background: url(../images/st-sprite.png) -589px -73px no-repeat;
 	width: 130px; 
 	height: 17px; 
 }
 
-a#edit-wave:hover { background: url(../speedtest/images/st-sprite.png) -589px -92px no-repeat; }
+a#edit-wave:hover { background: url(../images/st-sprite.png) -589px -92px no-repeat; }
 
 #sw-join-button {
 	float: right; 
@@ -89,7 +89,7 @@ a#edit-wave:hover { background: url(../speedtest/images/st-sprite.png) -589px -9
 	top: 20px;
 	z-index: 1; 
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -913px no-repeat;
+	background: url(../images/st-sprite.png) 0 -913px no-repeat;
 	width: 334px; 
 	height: 82px; 
 }
@@ -110,11 +110,11 @@ a#edit-wave:hover { background: url(../speedtest/images/st-sprite.png) -589px -9
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: left; 
-	background: url(../speedtest/images/st-sprite.png) -26px -934px no-repeat;
+	background: url(../images/st-sprite.png) -26px -934px no-repeat;
 }
 
-#sw-join-button a:hover { background: url(../speedtest/images/st-sprite.png) -360px -934px no-repeat; }
-#sw-join-button a:active { background: url(../speedtest/images/st-sprite.png) -694px -934px no-repeat; }
+#sw-join-button a:hover { background: url(../images/st-sprite.png) -360px -934px no-repeat; }
+#sw-join-button a:active { background: url(../images/st-sprite.png) -694px -934px no-repeat; }
 
 /* sw stats bar */
 #sw-stats { 
@@ -123,7 +123,7 @@ a#edit-wave:hover { background: url(../speedtest/images/st-sprite.png) -589px -9
 	margin: -6px 0 0 -8px;
 	float: left;
 	clear: both;
-	background: url(../speedtest/images/bg-wave-stats.png) no-repeat;
+	background: url(../images/bg-wave-stats.png) no-repeat;
 	position: relative;
 	z-index: 99;
 }
@@ -161,9 +161,9 @@ a#edit-wave:hover { background: url(../speedtest/images/st-sprite.png) -589px -9
 	height: 70px;
 }
 
-.sw-avg-dl .stats-lg { background: url(../speedtest/images/icon-sw-stats-download.png) left 7px no-repeat; padding: 0 0 0 28px; }
-.sw-avg-ul .stats-lg { background: url(../speedtest/images/icon-sw-stats-upload.png) left 7px no-repeat; padding: 0 0 0 28px; }
-.sw-avg-ping .stats-lg { background: url(../speedtest/images/icon-sw-stats-ping.png) left 7px no-repeat; padding: 0 0 0 28px; }
+.sw-avg-dl .stats-lg { background: url(../images/icon-sw-stats-download.png) left 7px no-repeat; padding: 0 0 0 28px; }
+.sw-avg-ul .stats-lg { background: url(../images/icon-sw-stats-upload.png) left 7px no-repeat; padding: 0 0 0 28px; }
+.sw-avg-ping .stats-lg { background: url(../images/icon-sw-stats-ping.png) left 7px no-repeat; padding: 0 0 0 28px; }
 
 .stats-title { font-size: 16px; font-weight: bold; }
 .tt-title { padding: 0 26px 0 0; }
@@ -215,12 +215,12 @@ a#view-full-stats {
 	float: right;
 	margin: -11px 7px 0 0;
 	text-shadow: -1px -1px 1px #333333;
-	background: url(../speedtest/images/st-sprite.png) 0 -396px no-repeat;
+	background: url(../images/st-sprite.png) 0 -396px no-repeat;
 }
 
-/* a#view-full-stats:hover { background: url(../speedtest/images/st-sprite.png) -170px -396px no-repeat; color: #33ccff; } */
-a#view-full-stats:hover { background: url(../speedtest/images/st-sprite.png) -1px -513px no-repeat; }
-a#view-full-stats.open { background: url(../speedtest/images/st-sprite.png) -1px -579px no-repeat; }
+/* a#view-full-stats:hover { background: url(../images/st-sprite.png) -170px -396px no-repeat; color: #33ccff; } */
+a#view-full-stats:hover { background: url(../images/st-sprite.png) -1px -513px no-repeat; }
+a#view-full-stats.open { background: url(../images/st-sprite.png) -1px -579px no-repeat; }
 
 a#sw-refresh {
 	display: block; 
@@ -236,11 +236,11 @@ a#sw-refresh {
 	float: left;
 	margin: -7px 0 0 -28px;
 	text-shadow: -1px -1px 1px #333333;
-	background: url(../speedtest/images/st-sprite.png) -687px -396px no-repeat;
+	background: url(../images/st-sprite.png) -687px -396px no-repeat;
 }
 
-/* a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -861px -396px no-repeat; color: #33ccff; } */
-a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -513px no-repeat; }
+/* a#sw-refresh:hover { background: url(../images/st-sprite.png) -861px -396px no-repeat; color: #33ccff; } */
+a#sw-refresh:hover { background: url(../images/st-sprite.png) -185px -513px no-repeat; }
 
 /* sw leaderboard */
 #sw-leaderboard { 
@@ -248,7 +248,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	float: left;
 	min-height: 410px;
 	margin: 0 0 0 -8px;
-	background: url(../speedtest/images/bg-sw-leaderboard.png) no-repeat;
+	background: url(../images/bg-sw-leaderboard.png) no-repeat;
 }
 
 /* leaderboard table */
@@ -267,7 +267,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 #leaderboard td { text-align: center; }
 #leaderboard small { font-size: 11px; color: #b0b6b6; }
 
-#leaderboard th { background: url(../speedtest/images/bg-sw-divider.png) left no-repeat; }
+#leaderboard th { background: url(../images/bg-sw-divider.png) left no-repeat; }
 #leaderboard th.no-border { background: none; }
 
 #leaderboard tr th a, #leaderboard tr th span { 
@@ -280,7 +280,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	text-shadow: -1px -1px 1px #444444; 
 }
 
-#leaderboard tr th:hover a, #leaderboard tr th.active a { color: #ffffff; background: url(../speedtest/images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
+#leaderboard tr th:hover a, #leaderboard tr th.active a { color: #ffffff; background: url(../images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
 
 /*
 #leaderboard th.left-master-spacer { width: 10px; border: none; background: none; }
@@ -353,9 +353,9 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 
 .badge-desc table { margin: 0 auto; }
 .badge-desc table tr td { text-align: left; vertical-align: middle; padding: 1px 3px; height: 10px; }
-.badge-desc table tr td.badge-dl { background: url(../speedtest/images/icon-th-dl.png) no-repeat; width: 15px; height: 18px; }
-.badge-desc table tr td.badge-ul { background: url(../speedtest/images/icon-th-ul.png) no-repeat; width: 15px; height: 18px; }
-.badge-desc table tr td.badge-ping { background: url(../speedtest/images/icon-th-ping.png) no-repeat; width: 15px; height: 18px; }
+.badge-desc table tr td.badge-dl { background: url(../images/icon-th-dl.png) no-repeat; width: 15px; height: 18px; }
+.badge-desc table tr td.badge-ul { background: url(../images/icon-th-ul.png) no-repeat; width: 15px; height: 18px; }
+.badge-desc table tr td.badge-ping { background: url(../images/icon-th-ping.png) no-repeat; width: 15px; height: 18px; }
  
 /* column specific */
 #leaderboard .sw-isp { text-align: left; line-height: 14px; width: 114px; }
@@ -380,11 +380,11 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	padding: 0;
 }
 
-#leaderboard .my-result-top { background: url(../speedtest/images/bg-my-result-top.png) repeat-x; }
+#leaderboard .my-result-top { background: url(../images/bg-my-result-top.png) repeat-x; }
 #leaderboard .my-result-top td { padding: 0; height: 7px; }
-/*#leaderboard .my-result-top td.corner { width: 6px; height: 6px; background: url(../speedtest/images/bg-my-result-top-corner.png) repeat-x; }*/
+/*#leaderboard .my-result-top td.corner { width: 6px; height: 6px; background: url(../images/bg-my-result-top-corner.png) repeat-x; }*/
 
-#leaderboard .my-result-bottom { background: url(../speedtest/images/bg-my-result-bottom.png) repeat-x; }
+#leaderboard .my-result-bottom { background: url(../images/bg-my-result-bottom.png) repeat-x; }
 #leaderboard .my-result-bottom td { padding: 0; height: 8px; }
 
 #leaderboard .border-left, #leaderboard .border-right { vertical-align: top; }
@@ -429,7 +429,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	margin: 19px 0 5px 20px; 
 	font-weight: bold; 
 	padding-left: 26px;
-	background: url(../speedtest/images/st-sprite.png) -921px 0 no-repeat;	
+	background: url(../images/st-sprite.png) -921px 0 no-repeat;	
 }
 
 #leaderboard .my-result-main .user h5 a { color: #98d100; }
@@ -527,7 +527,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	top: 20px;
 	left: 99px;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -280px no-repeat;
+	background: url(../images/st-sprite.png) 0 -280px no-repeat;
 	width: 172px; 
 	height: 42px; 
 }
@@ -549,11 +549,11 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -32px -285px no-repeat;
+	background: url(../images/st-sprite.png) -32px -285px no-repeat;
 }
 
-#form-submit-edit-wave input:hover, #form-submit-set-nickname input:hover { background: url(../speedtest/images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
-#form-submit-edit-wave input:active, #form-submit-set-nickname input:active { background: url(../speedtest/images/st-sprite.png) -378px -285px no-repeat; }
+#form-submit-edit-wave input:hover, #form-submit-set-nickname input:hover { background: url(../images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
+#form-submit-edit-wave input:active, #form-submit-set-nickname input:active { background: url(../images/st-sprite.png) -378px -285px no-repeat; }
 
 /* What's Speed Wave */
 
@@ -595,7 +595,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 
 /* stats container */
 #sw-stats-slidedown-panel {
-	background: url(../speedtest/images/bg-sw-stats-panel.png) repeat-y;
+	background: url(../images/bg-sw-stats-panel.png) repeat-y;
 	float: left;
 	width: 976px;
 	margin: 0 0 0 -8px;
@@ -603,7 +603,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 }
 
 #sw-stats-header {
-	background: url(../speedtest/images/bg-sw-stats-panel-top.png) no-repeat;
+	background: url(../images/bg-sw-stats-panel-top.png) no-repeat;
 	margin: 0 auto;
 	width: 976px;
 	height: 90px;
@@ -620,7 +620,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 }
 
 #sw-stats-panel-bottom {
-	background: url(../speedtest/images/bg-sw-stats-panel-bottom.png) no-repeat;
+	background: url(../images/bg-sw-stats-panel-bottom.png) no-repeat;
 	margin: 0 auto;
 	width: 976px;
 	height: 73px;
@@ -792,7 +792,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	width: 976px;
 	min-height: 524px; /* min is for ie7 */
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-sw-control-main.png) no-repeat;
+	background: url(../images/bg-sw-control-main.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -810,11 +810,11 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	float: left; 
 	width: 960px; 
 	margin: 8px 0 40px 8px;
-	background: #000 url(../speedtest/images/bg-sw-control.png) repeat-y;
+	background: #000 url(../images/bg-sw-control.png) repeat-y;
 }
 
 #sw-control-participated { 
-	background: #000 url(../speedtest/images/bg-sw-control-participated.png) no-repeat;
+	background: #000 url(../images/bg-sw-control-participated.png) no-repeat;
 	width: 640px;
 	min-height: 500px;
 	float: left;
@@ -834,7 +834,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	float: left;
 	margin: 5px 0 0 8px;
 	/*border-width: 0 1px 0 1px; border-style: solid; border-color: #343637;*/
-	background: url(../speedtest/images/bg-sw-control-participated-top.png) no-repeat;
+	background: url(../images/bg-sw-control-participated-top.png) no-repeat;
 	position: relative;
 	z-index: 99;
 }
@@ -853,7 +853,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 #participated td { text-align: center; }
 #participated small { font-size: 11px; color: #b0b6b6; }
 
-#participated th { background: url(../speedtest/images/bg-sw-divider.png) left no-repeat; }
+#participated th { background: url(../images/bg-sw-divider.png) left no-repeat; }
 #participated th.no-border { background: none; }
 
 #participated tr th a, #participated tr th span { 
@@ -866,7 +866,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	text-shadow: -1px -1px 1px #444444; 
 }
 
-#participated tr th:hover a, #participated tr th.active a { color: #ffffff; background: url(../speedtest/images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
+#participated tr th:hover a, #participated tr th.active a { color: #ffffff; background: url(../images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
 
 #participated thead tr { font-size: 12px; line-height: 20px; }
 #participated tbody tr td { font-size: 12px; color: #dedede; padding: 8px 0 8px 0; vertical-align: middle; }
@@ -891,13 +891,13 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 #participated tr td.inactive { color: #565656; }
 
 /* footer */
-#participated tr#participated-footer { height: 34px; background: #dfe6e6 url(../speedtest/images/bg-sw-control-participated-bottom.png) repeat-x top center; }
+#participated tr#participated-footer { height: 34px; background: #dfe6e6 url(../images/bg-sw-control-participated-bottom.png) repeat-x top center; }
 
 /* sidebar */
 #sw-control-sidebar { 
 	width: 320px;
 	min-height: 414px;
-	background: url(../speedtest/images/bg-sw-control-sidebar.png) no-repeat;
+	background: url(../images/bg-sw-control-sidebar.png) no-repeat;
 	float: left;
 }
 
@@ -927,7 +927,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	float: right; 
 	margin: 5px 5px 5px 0; 
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -742px no-repeat;
+	background: url(../images/st-sprite.png) 0 -742px no-repeat;
 	width: 310px; 
 	height: 58px; 
 }
@@ -945,11 +945,11 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) 0 -742px no-repeat;
+	background: url(../images/st-sprite.png) 0 -742px no-repeat;
 }
 
-#sw-control-start a:hover { background: url(../speedtest/images/st-sprite.png) -312px -742px no-repeat; }
-#sw-control-start a:active { background: url(../speedtest/images/st-sprite.png) -624px -742px no-repeat; }
+#sw-control-start a:hover { background: url(../images/st-sprite.png) -312px -742px no-repeat; }
+#sw-control-start a:active { background: url(../images/st-sprite.png) -624px -742px no-repeat; }
 
 #sw-hide-expired { float: right; margin: -33px 13px 0 0; }
 #sw-hide-expired input { width: 13px; height: 13px; float: left; }
@@ -975,10 +975,10 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	float: left;
 	position: relative;
 	margin: 0 0 8px 0;
-	background: url(../speedtest/images/st-sprite.png) 0 -804px no-repeat;
+	background: url(../images/st-sprite.png) 0 -804px no-repeat;
 }
 
-.sw-started-block:hover { background: url(../speedtest/images/st-sprite.png) -319px -804px no-repeat; }
+.sw-started-block:hover { background: url(../images/st-sprite.png) -319px -804px no-repeat; }
 
 .sw-started-block a {
 	display: block;
@@ -1078,7 +1078,7 @@ a#sw-refresh:hover { background: url(../speedtest/images/st-sprite.png) -185px -
 	position: relative;
 	z-index: 1;
 	float: left;
-	background: transparent url(../speedtest/images/bg-sw-control-footer.png) no-repeat;
+	background: transparent url(../images/bg-sw-control-footer.png) no-repeat;
 }
 
 /* Your Results styles
@@ -1133,7 +1133,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	float: right; 
 	margin: -10px 12px 0 0; 
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -120px no-repeat;
+	background: url(../images/st-sprite.png) 0 -120px no-repeat;
 	width: 210px; 
 	height: 51px; 
 }
@@ -1159,7 +1159,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -39px -126px no-repeat;
+	background: url(../images/st-sprite.png) -39px -126px no-repeat;
 }
 
 #yr-speedwave a {
@@ -1170,19 +1170,19 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 
 #yr-test-button a:hover,
 #yr-speedwave a:hover {
-	background: url(../speedtest/images/st-sprite.png) -250px -126px no-repeat;
+	background: url(../images/st-sprite.png) -250px -126px no-repeat;
 }
 
 #yr-test-button a:active,
 #yr-speedwave a:active {
-	background: url(../speedtest/images/st-sprite.png) -461px -126px no-repeat;
+	background: url(../images/st-sprite.png) -461px -126px no-repeat;
 }
 
 #yr-main { 
 	width: 976px;
 	height: 466px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-your-results.png) no-repeat;
+	background: url(../images/bg-your-results.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -1239,7 +1239,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	width: 177px;
 	height: 66px;
 	margin: 0 0 0 4px;
-	background: url(../speedtest/images/st-sprite.png) -363px -172px no-repeat;
+	background: url(../images/st-sprite.png) -363px -172px no-repeat;
 }
 
 #comparison-tabs li a {
@@ -1254,13 +1254,13 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 }
 
 #comparison-tabs li:hover, 
-#comparison-tabs li.current:hover { background: url(../speedtest/images/st-sprite.png) -183px -172px no-repeat; }
+#comparison-tabs li.current:hover { background: url(../images/st-sprite.png) -183px -172px no-repeat; }
 
-#comparison-tabs li.current { background: url(../speedtest/images/st-sprite.png) -3px -172px no-repeat; }
+#comparison-tabs li.current { background: url(../images/st-sprite.png) -3px -172px no-repeat; }
 
-#comparison-tabs li#dl-comparison a { background: url(../speedtest/images/icon-download-comparison.png) 16px 13px no-repeat; }
-#comparison-tabs li#ul-comparison a { background: url(../speedtest/images/icon-upload-comparison.png) 16px 13px no-repeat; }
-#comparison-tabs li#server-comparison a { background: url(../speedtest/images/icon-server-comparison.png) 15px 14px no-repeat; }
+#comparison-tabs li#dl-comparison a { background: url(../images/icon-download-comparison.png) 16px 13px no-repeat; }
+#comparison-tabs li#ul-comparison a { background: url(../images/icon-upload-comparison.png) 16px 13px no-repeat; }
+#comparison-tabs li#server-comparison a { background: url(../images/icon-server-comparison.png) 15px 14px no-repeat; }
 
 #chart-container {
 	padding: 18px 0 0 0; 
@@ -1279,7 +1279,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	height: 120px;
 	float: left;
 	margin: 5px 0 0 1px;
-	background: url(../speedtest/images/bg-best-results.png) no-repeat;
+	background: url(../images/bg-best-results.png) no-repeat;
 }
 
 #yr-best-results h3 {
@@ -1296,9 +1296,9 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	text-shadow: 0 0 3px #ffffff;
 }
 
-#yr-best-results ul li#dl-bestresult { background: url(../speedtest/images/icon-download-bestresult.png) 9px 9px no-repeat; }
-#yr-best-results ul li#ul-bestresult { background: url(../speedtest/images/icon-upload-bestresult.png) 9px 9px no-repeat; }
-#yr-best-results ul li#server-bestresult { background: url(../speedtest/images/icon-server-bestresult.png) 9px 9px no-repeat; }
+#yr-best-results ul li#dl-bestresult { background: url(../images/icon-download-bestresult.png) 9px 9px no-repeat; }
+#yr-best-results ul li#ul-bestresult { background: url(../images/icon-upload-bestresult.png) 9px 9px no-repeat; }
+#yr-best-results ul li#server-bestresult { background: url(../images/icon-server-bestresult.png) 9px 9px no-repeat; }
 
 #yr-best-results ul li span { width: 135px; float: left; }
 
@@ -1307,7 +1307,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	height: 88px;
 	float: left;
 	margin: 0 0 0 1px;
-	background: url(../speedtest/images/bg-connection-grade.png) no-repeat;
+	background: url(../images/bg-connection-grade.png) no-repeat;
 }
 
 #yr-connection-grade h3 {
@@ -1351,7 +1351,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	width: 230px;
 	height: 200px;
 	float: left;
-	background: url(../speedtest/images/bg-about-data.png) no-repeat;
+	background: url(../images/bg-about-data.png) no-repeat;
 }
 
 #yr-about-data h3 {
@@ -1372,7 +1372,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	width: 159px;
 	height: 39px;
 	margin: 30px 0 0 6px;
-	background: url(../speedtest/images/net-index-badge.png) no-repeat;
+	background: url(../images/net-index-badge.png) no-repeat;
 }
 
 /* dropdowns */
@@ -1381,7 +1381,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	height: 32px;
 	float: left;
 	margin: 25px 0 0 0;
-	background: url(../speedtest/images/st-sprite.png) 0 -701px no-repeat;
+	background: url(../images/st-sprite.png) 0 -701px no-repeat;
 }
 
 .server-dropdown { 
@@ -1392,7 +1392,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	margin: 7px 4px 0 20px; 
 	cursor: pointer;
 	float: left;
-	background: url(../speedtest/images/st-sprite.png) -603px -263px no-repeat;
+	background: url(../images/st-sprite.png) -603px -263px no-repeat;
 }
 
 .timeframe-dropdown { 
@@ -1403,7 +1403,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	margin: 7px 4px 0 4px; 
 	cursor: pointer;
 	float: left;
-	background: url(../speedtest/images/st-sprite.png) -603px -263px no-repeat;
+	background: url(../images/st-sprite.png) -603px -263px no-repeat;
 }
 
 .timeframe-dropdown form {
@@ -1518,7 +1518,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	margin: 3px 0 0 0; 
 	cursor: pointer;
 	float: left;
-	background: url(../speedtest/images/st-sprite.png) -633px -177px no-repeat;
+	background: url(../images/st-sprite.png) -633px -177px no-repeat;
 }
 
 .ip { 
@@ -1565,7 +1565,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	width: 976px;
 	min-height: 434px;
 	margin: -9px 0 0 -8px;
-	background: url(../speedtest/images/bg-recent-results.png) no-repeat;
+	background: url(../images/bg-recent-results.png) no-repeat;
 }
 
 #yr-recent-results h2 {
@@ -1594,7 +1594,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	width: 220px;
 	height: 26px;
 	float: left;
-	background: url(../speedtest/images/st-sprite.png) -549px -213px no-repeat;
+	background: url(../images/st-sprite.png) -549px -213px no-repeat;
 }
 
 #yr-recent-results-filter form {
@@ -1642,7 +1642,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 #recent-results td { text-align: center; }
 #recent-results small { font-size: 11px; color: #b0b6b6; }
 
-#recent-results th { background: url(../speedtest/images/bg-sw-divider.png) left no-repeat; }
+#recent-results th { background: url(../images/bg-sw-divider.png) left no-repeat; }
 #recent-results th.no-border { background: none; }
 
 #recent-results tr th a, #recent-results tr th span { 
@@ -1655,7 +1655,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	text-shadow: -1px -1px 1px #444444; 
 }
 
-#recent-results tr th:hover a, #recent-results tr th.active a { color: #ffffff; background: url(../speedtest/images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
+#recent-results tr th:hover a, #recent-results tr th.active a { color: #ffffff; background: url(../images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
 
 #recent-results thead tr { font-size: 12px; line-height: 20px; }
 #recent-results tbody tr td { font-size: 12px; color: #dedede; padding: 8px 0 8px 0; vertical-align: middle; }
@@ -1678,7 +1678,7 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 #recent-results thead tr th img.delete-icon { position: relative; top: 3px; left: 0; }
 
 /* load more button */
-#recent-results tr.more-button td.more-button-container { padding: 12px 0; background: #dfe6e6 url(../speedtest/images/bg-more-sw-results.png) repeat-x top center; }
+#recent-results tr.more-button td.more-button-container { padding: 12px 0; background: #dfe6e6 url(../images/bg-more-sw-results.png) repeat-x top center; }
 
 #recent-results tr.more-button td a { 
 	display: block;
@@ -1692,10 +1692,10 @@ a#yr-share:hover, a#yr-unshare:hover { color: #e4d700; }
 	text-transform: uppercase;
 	color: #6bdce1; 
 	text-shadow: -1px -1px 1px #333333;
-	background: url(../speedtest/images/st-sprite.png) 0 -458px no-repeat;
+	background: url(../images/st-sprite.png) 0 -458px no-repeat;
 }
 
-#recent-results tr.more-button td a:hover { background: url(../speedtest/images/st-sprite.png) -472px -458px no-repeat; color: #47dfff; }
+#recent-results tr.more-button td a:hover { background: url(../images/st-sprite.png) -472px -458px no-repeat; color: #47dfff; }
 
 /* delete row buttons */
 .delete-row-th { width: 38px; }
@@ -1704,13 +1704,13 @@ a.delete-row {
 	float: left; 
 	width: 18px; 
 	height: 18px; 
-	background: url(../speedtest/images/st-sprite.png) -793px 0 no-repeat;
+	background: url(../images/st-sprite.png) -793px 0 no-repeat;
 	position: relative;
 	left: 10px;
 	display: none;
 }
 
-a.delete-row:hover { background: url(../speedtest/images/st-sprite.png) -793px -22px no-repeat; cursor: pointer; }
+a.delete-row:hover { background: url(../images/st-sprite.png) -793px -22px no-repeat; cursor: pointer; }
 a.delete-row span { float: left; text-indent: -9999px; }
 
 /* speedwave column */
@@ -1719,20 +1719,20 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 15px;
 	height: 13px;
 	margin: 0 auto;
-	background: url(../speedtest/images/st-sprite.png) -814px -3px no-repeat;
+	background: url(../images/st-sprite.png) -814px -3px no-repeat;
 }
 
-#recent-results .sw-link:hover { background: url(../speedtest/images/st-sprite.png) -814px -24px no-repeat; }
+#recent-results .sw-link:hover { background: url(../images/st-sprite.png) -814px -24px no-repeat; }
 
 #recent-results .sw-link-add {
 	display: block;
 	width: 41px;
 	height: 42px;
 	margin: 0 auto;
-	background: url(../speedtest/images/st-sprite.png) -833px -0 no-repeat;
+	background: url(../images/st-sprite.png) -833px -0 no-repeat;
 }
 
-#recent-results .sw-link-add:hover { background: url(../speedtest/images/st-sprite.png) -875px 0 no-repeat; }
+#recent-results .sw-link-add:hover { background: url(../images/st-sprite.png) -875px 0 no-repeat; }
 
 /* create speedwave modal */
 #modal-create-wave { text-align: left; }
@@ -1777,7 +1777,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	top: 20px;
 	left: 99px;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -280px no-repeat;
+	background: url(../images/st-sprite.png) 0 -280px no-repeat;
 	width: 172px; 
 	height: 42px; 
 }
@@ -1799,11 +1799,11 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -32px -285px no-repeat;
+	background: url(../images/st-sprite.png) -32px -285px no-repeat;
 }
 
-#form-submit-create-wave input:hover { background: url(../speedtest/images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
-#form-submit-create-wave input:active { background: url(../speedtest/images/st-sprite.png) -378px -285px no-repeat; }
+#form-submit-create-wave input:hover { background: url(../images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
+#form-submit-create-wave input:active { background: url(../images/st-sprite.png) -378px -285px no-repeat; }
 
 #modal-create-wave #sw-seed { float: left; width: 396px; }
 
@@ -1850,7 +1850,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 524px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-mobile.png) no-repeat;
+	background: url(../images/bg-mobile.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -1889,7 +1889,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 524px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-sub-general.png) no-repeat;
+	background: url(../images/bg-sub-general.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -1952,7 +1952,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 686px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-register.png) no-repeat;
+	background: url(../images/bg-register.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -1985,7 +1985,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	clear: both;
 	margin: 0 0 0 19px;
 	position: relative;
-	/* background: url(../speedtest/images/bg-register-form.png) no-repeat; */
+	/* background: url(../images/bg-register-form.png) no-repeat; */
 }
 
 #register-form form { 
@@ -2023,7 +2023,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	left: 112px;
 	bottom: 0;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -120px no-repeat;
+	background: url(../images/st-sprite.png) 0 -120px no-repeat;
 	width: 210px; 
 	height: 51px; 
 }
@@ -2044,11 +2044,11 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -39px -126px no-repeat;
+	background: url(../images/st-sprite.png) -39px -126px no-repeat;
 }
 
-#form-submit-reg input:hover { background: url(../speedtest/images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
-#form-submit-reg input:active { background: url(../speedtest/images/st-sprite.png) -461px -126px no-repeat; }
+#form-submit-reg input:hover { background: url(../images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
+#form-submit-reg input:active { background: url(../images/st-sprite.png) -461px -126px no-repeat; }
 
 #register-form input.field:focus { background-color: #f6efcb; }
 #register-form input.error { background-color: #fbcfcf; }
@@ -2080,7 +2080,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 478px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-login.png) no-repeat;
+	background: url(../images/bg-login.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -2097,7 +2097,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	clear: both;
 	margin: 0 0 0 266px;
 	position: relative;
-	/* background: url(../speedtest/images/bg-register-form.png) no-repeat; */
+	/* background: url(../images/bg-register-form.png) no-repeat; */
 }
 
 #login-form form { 
@@ -2149,7 +2149,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	left: 122px;
 	bottom: 0;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -120px no-repeat;
+	background: url(../images/st-sprite.png) 0 -120px no-repeat;
 	width: 210px; 
 	height: 51px; 
 }
@@ -2170,11 +2170,11 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -39px -126px no-repeat;
+	background: url(../images/st-sprite.png) -39px -126px no-repeat;
 }
 
-#form-submit-login input:hover { background: url(../speedtest/images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
-#form-submit-login input:active { background: url(../speedtest/images/st-sprite.png) -461px -126px no-repeat; }
+#form-submit-login input:hover { background: url(../images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
+#form-submit-login input:active { background: url(../images/st-sprite.png) -461px -126px no-repeat; }
 
 #login-form input.field:focus { background-color: #f6efcb; }
 #login-form input.error { background-color: #fbcfcf; }
@@ -2203,7 +2203,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 506px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-mini.png) no-repeat;
+	background: url(../images/bg-mini.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -2258,7 +2258,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 864px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-sub-general-blk-tall.png) no-repeat;
+	background: url(../images/bg-sub-general-blk-tall.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -2354,7 +2354,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	left: 120px;
 	bottom: -80px;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -120px no-repeat;
+	background: url(../images/st-sprite.png) 0 -120px no-repeat;
 	width: 210px; 
 	height: 51px; 
 }
@@ -2375,11 +2375,11 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -39px -126px no-repeat;
+	background: url(../images/st-sprite.png) -39px -126px no-repeat;
 }
 
-#form-submit-host input:hover { background: url(../speedtest/images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
-#form-submit-host input:active { background: url(../speedtest/images/st-sprite.png) -461px -126px no-repeat; }
+#form-submit-host input:hover { background: url(../images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
+#form-submit-host input:active { background: url(../images/st-sprite.png) -461px -126px no-repeat; }
 
 /* Contact
 ------------------------------------------------------- */
@@ -2404,7 +2404,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 688px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-sub-general-blk.png) no-repeat;
+	background: url(../images/bg-sub-general-blk.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -2500,7 +2500,7 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	left: 120px;
 	bottom: 42px;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -120px no-repeat;
+	background: url(../images/st-sprite.png) 0 -120px no-repeat;
 	width: 210px; 
 	height: 51px; 
 }
@@ -2521,11 +2521,11 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -39px -126px no-repeat;
+	background: url(../images/st-sprite.png) -39px -126px no-repeat;
 }
 
-#form-submit-contact input:hover { background: url(../speedtest/images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
-#form-submit-contact input:active { background: url(../speedtest/images/st-sprite.png) -461px -126px no-repeat; }
+#form-submit-contact input:hover { background: url(../images/st-sprite.png) -250px -126px no-repeat; cursor: pointer; }
+#form-submit-contact input:active { background: url(../images/st-sprite.png) -461px -126px no-repeat; }
 
 /* Settings
 ------------------------------------------------------- */
@@ -2552,21 +2552,21 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	width: 976px;
 	height: 850px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-settings.png) no-repeat;
+	background: url(../images/bg-settings.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
 #settings-main.nonuserbg { 
 	width: 976px;
 	height: 682px;
-	background: url(../speedtest/images/bg-settings-nonuser.png) no-repeat;
+	background: url(../images/bg-settings-nonuser.png) no-repeat;
 }
 
 #settings-test-button {
 	float: right; 
 	margin: 6px 12px 0 0; 
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -120px no-repeat;
+	background: url(../images/st-sprite.png) 0 -120px no-repeat;
 	width: 210px; 
 	height: 51px; 
 }
@@ -2587,11 +2587,11 @@ a.delete-row span { float: left; text-indent: -9999px; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -39px -126px no-repeat;
+	background: url(../images/st-sprite.png) -39px -126px no-repeat;
 }
 
-#settings-test-button a:hover { background: url(../speedtest/images/st-sprite.png) -250px -126px no-repeat; }
-#settings-test-button a:active { background: url(../speedtest/images/st-sprite.png) -461px -126px no-repeat; }
+#settings-test-button a:hover { background: url(../images/st-sprite.png) -250px -126px no-repeat; }
+#settings-test-button a:active { background: url(../images/st-sprite.png) -461px -126px no-repeat; }
 
 /*.settings-left { width: 320px; float: left; }
 .settings-right { width: 640px; float: left; }*/
@@ -2622,7 +2622,7 @@ a#view-sw, a#edit-connection {
 	padding: 2px 0 0 0;
 	text-align: center;  
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) -603px -282px no-repeat;
+	background: url(../images/st-sprite.png) -603px -282px no-repeat;
 	width: 182px; 
 	height: 17px; 
 }
@@ -2642,7 +2642,7 @@ a#edit-connection { margin: 5px 0 0 12px; }
 	width: 500px;
 	margin: 18px 0 0 50px;
 	padding: 0 0 0 86px;
-	background: url(../speedtest/images/bg-sw-icon-lg.png) left no-repeat;
+	background: url(../images/bg-sw-icon-lg.png) left no-repeat;
 }
 
 #nickname-form label { 
@@ -2675,7 +2675,7 @@ a#edit-connection { margin: 5px 0 0 12px; }
 	top: 5px;
 	left: -24px; 
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -244px no-repeat;
+	background: url(../images/st-sprite.png) 0 -244px no-repeat;
 	width: 106px; 
 	height: 33px; 
 }
@@ -2697,11 +2697,11 @@ a#edit-connection { margin: 5px 0 0 12px; }
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -14px -248px no-repeat;
+	background: url(../images/st-sprite.png) -14px -248px no-repeat;
 }
 
-#form-submit-nickname input:hover { background: url(../speedtest/images/st-sprite.png) -120px -248px no-repeat; cursor: pointer; }
-#form-submit-nickname input:active { background: url(../speedtest/images/st-sprite.png) -226px -248px no-repeat; }
+#form-submit-nickname input:hover { background: url(../images/st-sprite.png) -120px -248px no-repeat; cursor: pointer; }
+#form-submit-nickname input:active { background: url(../images/st-sprite.png) -226px -248px no-repeat; }
 
 #nickname-form input.field:focus { background-color: #f6efcb; }
 #nickname-form input.error { background-color: #fbcfcf; }
@@ -2733,7 +2733,7 @@ a#edit-connection { margin: 5px 0 0 12px; }
 	width: 420px;
 	height: 376px;
 	margin: 20px 60px 0 0;
-	background: url(../speedtest/images/bg-view-sw.png) scroll no-repeat;
+	background: url(../images/bg-view-sw.png) scroll no-repeat;
 	overflow: auto;
 	overflow-x: hidden;
 }
@@ -2743,7 +2743,7 @@ a#edit-connection { margin: 5px 0 0 12px; }
 	width: 420px;
 	height: 376px;
 	margin: 20px 0 0 0;
-	background: url(../speedtest/images/bg-view-sw.png) scroll no-repeat;
+	background: url(../images/bg-view-sw.png) scroll no-repeat;
 	overflow: auto;
 	overflow-x: hidden;
 }
@@ -2762,7 +2762,7 @@ a#edit-connection { margin: 5px 0 0 12px; }
 .view-sw td, .view-all-badges td { text-align: center; }
 .view-sw small, .view-all-badges small { font-size: 11px; color: #b0b6b6; }
 
-.view-sw th, .view-all-badges th { background: url(../speedtest/images/bg-sw-divider.png) left no-repeat; }
+.view-sw th, .view-all-badges th { background: url(../images/bg-sw-divider.png) left no-repeat; }
 .view-sw th.no-border, .view-all-badges th.no-border { background: none; }
 
 .view-sw tr th a, .view-sw tr th span, .view-all-badges tr th a, .view-all-badges tr th span { 
@@ -2775,7 +2775,7 @@ a#edit-connection { margin: 5px 0 0 12px; }
 	text-shadow: -1px -1px 1px #444444; 
 }
 
-.view-sw tr th:hover a, .view-sw tr th.active a, .view-all-badges tr th:hover a, .view-all-badges tr th.active a { color: #ffffff; background: url(../speedtest/images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
+.view-sw tr th:hover a, .view-sw tr th.active a, .view-all-badges tr th:hover a, .view-all-badges tr th.active a { color: #ffffff; background: url(../images/bg-sw-th-hover.png) repeat-x; margin: 0 0 0 1px; }
 
 .view-sw thead tr, .view-all-badges thead tr { font-size: 11px; line-height: 20px; }
 .view-sw tbody tr td, .view-all-badges tbody tr td { font-size: 11px; color: #dedede; padding: 8px 0 8px 0; vertical-align: middle; }
@@ -2870,10 +2870,10 @@ a#gmap {
 	float: left;
 	margin: 8px 0 0 0;
 	clear: left;
-	background: url(../speedtest/images/st-sprite.png) -772px -193px no-repeat;	
+	background: url(../images/st-sprite.png) -772px -193px no-repeat;	
 }
 
-a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px no-repeat; color: #33ccff; }
+a#gmap:hover { background: url(../images/st-sprite.png) -772px -217px no-repeat; color: #33ccff; }
 
 /* edit connection modal */
 #connection-edit {
@@ -2883,7 +2883,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	position: absolute;
 	bottom: 0;
 	left: -16px;
-	background: url(../speedtest/images/st-sprite.png) 0 -672px no-repeat;
+	background: url(../images/st-sprite.png) 0 -672px no-repeat;
 }
 
 #modal-edit-connection form { width: 380px; float: left; }
@@ -2934,7 +2934,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	top: 20px;
 	left: 99px;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -280px no-repeat;
+	background: url(../images/st-sprite.png) 0 -280px no-repeat;
 	width: 172px; 
 	height: 42px; 
 }
@@ -2956,16 +2956,16 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -32px -285px no-repeat;
+	background: url(../images/st-sprite.png) -32px -285px no-repeat;
 }
 
-#form-submit-edit-connection input:hover { background: url(../speedtest/images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
-#form-submit-edit-connection input:active { background: url(../speedtest/images/st-sprite.png) -378px -285px no-repeat; }
+#form-submit-edit-connection input:hover { background: url(../images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
+#form-submit-edit-connection input:active { background: url(../images/st-sprite.png) -378px -285px no-repeat; }
 
 #refine-location { 
 	width: 147px; 
 	height: 112px; 
-	background: url(../speedtest/images/bg-refine-location.png) no-repeat;
+	background: url(../images/bg-refine-location.png) no-repeat;
 	float: left; 
 	position: absolute;
 	right: 22px;
@@ -2990,7 +2990,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	margin: 5px -2px 0 0; 
 	cursor: pointer;
 	float: right;
-	background: url(../speedtest/images/st-sprite.png) -603px -263px no-repeat;
+	background: url(../images/st-sprite.png) -603px -263px no-repeat;
 }
 
 .connection { 
@@ -3056,7 +3056,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	top: -18px;
 	left: -16px;
 	float: left;
-	/*background: url(../speedtest/images/bg-global-settings_six.png) no-repeat;*/
+	/*background: url(../images/bg-global-settings_six.png) no-repeat;*/
 }
 
 /* time zone, date format, distance dropdowns */
@@ -3070,7 +3070,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	border-width: 0 1px 1px 0;
 	border-style: solid;
 	border-color: #222;
-	background-image: url(../speedtest/images/bg-global-settings-icons.png);
+	background-image: url(../images/bg-global-settings-icons.png);
 	background-repeat: no-repeat;
 	background-position: 20px 13px;
 }
@@ -3226,7 +3226,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	bottom: -290px;
 	left: 235px;
 	color: #33ccff; 
-	background: url(../speedtest/images/st-sprite.png) 0 -280px no-repeat;
+	background: url(../images/st-sprite.png) 0 -280px no-repeat;
 	width: 172px; 
 	height: 42px; 
 }
@@ -3248,11 +3248,11 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center; 
-	background: url(../speedtest/images/st-sprite.png) -32px -285px no-repeat;
+	background: url(../images/st-sprite.png) -32px -285px no-repeat;
 }
 
-#form-submit-global-settings input:hover { background: url(../speedtest/images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
-#form-submit-global-settings input:active { background: url(../speedtest/images/st-sprite.png) -378px -285px no-repeat; }
+#form-submit-global-settings input:hover { background: url(../images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
+#form-submit-global-settings input:active { background: url(../images/st-sprite.png) -378px -285px no-repeat; }
 
 #form-submit-global-settings.nonusersubmit { bottom: -122px; }
 
@@ -3276,8 +3276,8 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 #pw-change-desc p, #email-change-desc p { width: 270px; font-size: 12px; line-height: 18px; margin: 8px 0 0 0; color: #d6d6d6; }
 
 /* disabled settings areas for nonusers */
-.nonuser { background: url(../speedtest/images/bg-nonuser.png); position: absolute; z-index: 999; }
-.nonuser p { width: 420px; position: relative; top: 110px; left: 355px; float: left; color: #ffffff; font-style: italic; border: 1px solid #33ccff; background: url(../speedtest/images/bg-nonuser-msg.png); }
+.nonuser { background: url(../images/bg-nonuser.png); position: absolute; z-index: 999; }
+.nonuser p { width: 420px; position: relative; top: 110px; left: 355px; float: left; color: #ffffff; font-style: italic; border: 1px solid #33ccff; background: url(../images/bg-nonuser-msg.png); }
 .nonuser span { color: #ffffff; float: left; font-style: italic; padding: 5px 14px; }
 .nonuser span a { color: #6bdce1; }
 .nonuser span a:hover { color: #e4d700; }
@@ -3309,7 +3309,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	width: 976px;
 	min-height: 530px;
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-sub-relative.png) no-repeat;
+	background: url(../images/bg-sub-relative.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -3317,7 +3317,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	width: 960px;
 	margin: 16px 0 0 8px;
 	float: left;
-	background: #000000 url(../speedtest/images/bg-about-speedtest.png) bottom center repeat-x;
+	background: #000000 url(../images/bg-about-speedtest.png) bottom center repeat-x;
 }
 
 #about-speedtest-content { width: 620px; float: left; }
@@ -3329,7 +3329,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	margin: 0 0 0 8px;
 	padding: 16px 0 0 0;
 	float: left;
-	background: #000000 url(../speedtest/images/bg-about-ookla.png) bottom center repeat-x;
+	background: #000000 url(../images/bg-about-ookla.png) bottom center repeat-x;
 }
 
 #about-ookla-content { float: left; width: 500px; padding: 20px 0; }
@@ -3340,7 +3340,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	margin: 0 0 0 8px;
 	float: left;
 	position: relative;
-	background: #000000 url(../speedtest/images/bg-about-netindex.png) bottom center repeat-x;
+	background: #000000 url(../images/bg-about-netindex.png) bottom center repeat-x;
 }
 
 #about-netindex-content { width: 490px; float: left; }
@@ -3359,7 +3359,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	padding: 16px 0 0 0;
 	float: left;
 	position: relative;
-	background: #000000 url(../speedtest/images/bg-about-pingtest.png) top center repeat-x;
+	background: #000000 url(../images/bg-about-pingtest.png) top center repeat-x;
 }
 
 #about-pingtest-content { float: left; width: 500px; padding: 20px 0; position: relative; z-index: 999; }
@@ -3372,7 +3372,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	position: relative;
 	z-index: 99;
 	float: left;
-	background: transparent url(../speedtest/images/bg-sub-relative-footer.png) no-repeat;
+	background: transparent url(../images/bg-sub-relative-footer.png) no-repeat;
 }
 
 /* Support styles
@@ -3398,7 +3398,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	width: 976px;
 	min-height: 640px; /* min is for ie7 */
 	margin: 1px 0 0 -8px;
-	background: url(../speedtest/images/bg-support-main.png) no-repeat;
+	background: url(../images/bg-support-main.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -3406,14 +3406,14 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	float: left; 
 	width: 960px; 
 	margin: 4px 0 20px 8px;
-	background: #000 url(../speedtest/images/bg-support-panel.png) repeat-y;
+	background: #000 url(../images/bg-support-panel.png) repeat-y;
 }
 
 /*** sidebar ***/
 #support-sidebar {
 	width: 320px;
 	min-height: 630px;
-	background: url(../speedtest/images/bg-support-sidebar.png) no-repeat;
+	background: url(../images/bg-support-sidebar.png) no-repeat;
 	float: left;
 	position: relative;
 	top: -5px; 
@@ -3429,7 +3429,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 }
 
 #toc-nav #toc-left { 
-	background: url(../speedtest/images/st-sprite.png) -979px -444px no-repeat;
+	background: url(../images/st-sprite.png) -979px -444px no-repeat;
 	margin: 0 0 0 -1px;
 	width: 22px;
 	height: 312px;
@@ -3437,28 +3437,28 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 }
 
 #toc-nav #toc-right { 
-	background: url(../speedtest/images/st-sprite.png) -1002px -444px no-repeat;
+	background: url(../images/st-sprite.png) -1002px -444px no-repeat;
 	width: 22px;
 	height: 312px;
 	float: left;
 }
 
 #toc-nav #toc-bottom { 
-	background: url(../speedtest/images/st-sprite.png) -634px -822px no-repeat;
+	background: url(../images/st-sprite.png) -634px -822px no-repeat;
 	width: 321px;
 	height: 17px;
 	float: left;
 }
 
 #toc-nav ul#main { 
-	background: url(../speedtest/images/bg-support-toc.png) repeat-x;
+	background: url(../images/bg-support-toc.png) repeat-x;
 	width: 277px;
 	height: 312px;
 	float: left;
 }
 
 #toc-nav ul li { 
-	background: url(../speedtest/images/bg-support-toc-divider.png) bottom no-repeat;
+	background: url(../images/bg-support-toc-divider.png) bottom no-repeat;
 	text-align: left; 
 	float: none;
 	padding: 0 0 2px 0;
@@ -3479,7 +3479,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 #toc-nav ul li a:hover { 
 	color: #014c65; 
 	text-shadow: 1px 1px 0 rgba(255,255,255,.3); 
-	background: url(../speedtest/images/icon-toc-arrow.png) 258px center no-repeat; 
+	background: url(../images/icon-toc-arrow.png) 258px center no-repeat; 
 }
 
 #toc-nav ul li.first { padding: 22px 0 0 0; }
@@ -3495,7 +3495,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	position: absolute;
 	top: 1px;
 	left: 280px;
-	background: transparent url(../speedtest/images/bg-support-toc-flyout.png);
+	background: transparent url(../images/bg-support-toc-flyout.png);
 	border: solid 1px #6bdce1;
 	-moz-border-radius: 5px;	
 	-webkit-border-radius: 5px;
@@ -3525,7 +3525,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	line-height: 15px; 
 }
 
-#toc-nav ul li ul li a:hover { color: #ffffff; background: transparent url(../speedtest/images/bg-support-toc-flyout-hover.png); }
+#toc-nav ul li ul li a:hover { color: #ffffff; background: transparent url(../images/bg-support-toc-flyout-hover.png); }
 	
 #more-help { 
 	width: 260px;
@@ -3598,9 +3598,9 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 	left: 4px; 
 }
 
-#or-ookla-wiki a.logo { background: url(../speedtest/images/bg-ookla-wiki.png) no-repeat; width: 141px; height: 34px; }
-#or-pingtest a.logo { background: url(../speedtest/images/bg-pingtest.png) no-repeat; width: 130px; height: 34px;}
-#or-netindex a.logo { background: url(../speedtest/images/bg-netindex.png) no-repeat; width: 132px; height: 41px; }
+#or-ookla-wiki a.logo { background: url(../images/bg-ookla-wiki.png) no-repeat; width: 141px; height: 34px; }
+#or-pingtest a.logo { background: url(../images/bg-pingtest.png) no-repeat; width: 130px; height: 34px;}
+#or-netindex a.logo { background: url(../images/bg-netindex.png) no-repeat; width: 132px; height: 41px; }
 
 #other-resources ul li a.visit { 
 	background-color: #fcd101;
@@ -3629,7 +3629,7 @@ a#gmap:hover { background: url(../speedtest/images/st-sprite.png) -772px -217px 
 #support-faq-bg {
 	width: 640px;
 	min-height: 630px;
-	background: #000 url(../speedtest/images/bg-support-faq.png) no-repeat;
+	background: #000 url(../images/bg-support-faq.png) no-repeat;
 	float: left;
 	padding: 0 0 20px 0; /* ie7 footer */
 }
@@ -3653,17 +3653,17 @@ a.top:hover { color: #e4d700; }
 	width: 603px;
 	min-height: 140px;
 	margin: 0 0 10px 0;
-	background: #242424 url(../speedtest/images/bg-support-faq-list-top.png) top no-repeat;
+	background: #242424 url(../images/bg-support-faq-list-top.png) top no-repeat;
 }
 
 .support-faq-list-bg.first {
-	background: #242424 url(../speedtest/images/bg-support-faq-list-top-first.png) top no-repeat;
+	background: #242424 url(../images/bg-support-faq-list-top-first.png) top no-repeat;
 }
 
 .support-faq-list {
 	width: 603px;
 	margin: 10px 0 0 0;
-	background: #242424 url(../speedtest/images/bg-support-faq-list.png) repeat-y;
+	background: #242424 url(../images/bg-support-faq-list.png) repeat-y;
 }
 
 .support-faq-list-footer { 
@@ -3673,7 +3673,7 @@ a.top:hover { color: #e4d700; }
 	position: relative;
 	z-index: 1;
 	float: left;
-	background: transparent url(../speedtest/images/bg-support-faq-list-bottom.png) no-repeat;
+	background: transparent url(../images/bg-support-faq-list-bottom.png) no-repeat;
 }
 
 /* faq accordion */
@@ -3696,7 +3696,7 @@ h3.faq-title {
 	font-size: 13px;
 	text-transform: none;
 	border-bottom: 1px solid #494949;
-	background: url(../speedtest/images/bg-support-faq-closed.png) left no-repeat;
+	background: url(../images/bg-support-faq-closed.png) left no-repeat;
 }
 
 h3.faq-title a {
@@ -3707,8 +3707,8 @@ h3.faq-title a {
 }
 
 h3.faq-title a:hover { color: #6bdce1; }
-h3.faq-title:hover { background: url(../speedtest/images/bg-support-faq-open.png) left no-repeat; }
-h3.active { background: url(../speedtest/images/bg-support-faq-open.png) left no-repeat; border: none; }
+h3.faq-title:hover { background: url(../images/bg-support-faq-open.png) left no-repeat; }
+h3.active { background: url(../images/bg-support-faq-open.png) left no-repeat; border: none; }
 h3.active a { color: #6bdce1; }
 
 .faq-content {
@@ -3731,7 +3731,7 @@ h3.active a { color: #6bdce1; }
 	position: relative;
 	z-index: 1;
 	float: left;
-	background: transparent url(../speedtest/images/bg-support-footer.png) no-repeat;
+	background: transparent url(../images/bg-support-footer.png) no-repeat;
 }
 
 /* Whats New
@@ -3751,7 +3751,7 @@ h3.active a { color: #6bdce1; }
 	width: 960px;
 	margin: 16px 0 0 8px;
 	float: left;
-	background: #000000 url(../speedtest/images/bg-about-speedtest.png) bottom center repeat-x;
+	background: #000000 url(../images/bg-about-speedtest.png) bottom center repeat-x;
 }
 
 #wn-customized { 
@@ -3759,7 +3759,7 @@ h3.active a { color: #6bdce1; }
 	margin: 0 0 0 8px;
 	padding: 20px 0;
 	float: left;
-	background: #000000 url(../speedtest/images/bg-about-ookla.png) bottom center repeat-x;
+	background: #000000 url(../images/bg-about-ookla.png) bottom center repeat-x;
 }
 
 #wn-fun { 
@@ -3801,7 +3801,7 @@ h3.active a { color: #6bdce1; }
 	width: 976px;
 	min-height: 600px;
 	margin: -5px 0 0 -8px;
-	background: url(../speedtest/images/bg-generic.png) no-repeat;
+	background: url(../images/bg-generic.png) no-repeat;
 	padding: 9px 0 0 0; /* ie7 */
 }
 
@@ -3810,7 +3810,7 @@ h3.active a { color: #6bdce1; }
 	min-height: 519px;
 	float: left;
 	margin: -3px 0 20px 10px;
-	background: #000000 url(../speedtest/images/bg-generic-main.png) no-repeat;
+	background: #000000 url(../images/bg-generic-main.png) no-repeat;
 	position: relative;
 	z-index: 99;
 }
@@ -3841,5 +3841,5 @@ h3.active a { color: #6bdce1; }
 	position: relative;
 	z-index: 1;
 	float: left;
-	background: transparent url(../speedtest/images/bg-generic-footer.png) no-repeat;
+	background: transparent url(../images/bg-generic-footer.png) no-repeat;
 }
