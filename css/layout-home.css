@@ -31,8 +31,8 @@ div.noflash {
 
 div.no-flash-us .chrome-message {
 	display: block;
+	background-image: url(https://stun3.github.io/speedtest/images/icon-warning-100x100.png);
 	padding: 170px 10px 10px;
-	background-image: url(../images/icon-warning-100x100.png);
 	background-repeat: no-repeat;
 	background-position: center 50px;
 	text-align: center;
@@ -86,7 +86,7 @@ div.no-flash-us .chrome-message {
 
 .chrome-button .chrome-button-inner {
 	text-align: left;
-	background-image: url(../images/Google_chrome_logo-50x50.png);
+	background-image: url(https://stun3.github.io/speedtest/images/Google_chrome_logo-50x50.png);
 	background-position: 8px 8px;
 	background-repeat: no-repeat;
 	font-size: 18px;
@@ -141,7 +141,7 @@ div.no-flash-us .chrome-message {
 	float: left;
 	color: #ffffff;
 	text-shadow: 2px 2px 2px #000000;
-	background: url(../images/st-sprite_home.png?v=20150803) 0 -123px no-repeat;
+	background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) 0 -123px no-repeat;
 }
 
 #home-features ul { margin: 6px 0 12px 0; width: 714px; }
@@ -210,17 +210,17 @@ div.no-flash-us .chrome-message {
 	text-shadow: 1px 1px 1px #000000;
 }
 
-#st-social li#share { background: url(../images/st-sprite_home.png?v=20150803) -204px 0 no-repeat; }
-#st-social li#facebook { background: url(../images/st-sprite_home.png?v=20150803) -334px 0 no-repeat; }
-#st-social li#twitter { background: url(../images/st-sprite_home.png?v=20150803) -464px 0 no-repeat; }
+#st-social li#share { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -204px 0 no-repeat; }
+#st-social li#facebook { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -334px 0 no-repeat; }
+#st-social li#twitter { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -464px 0 no-repeat; }
 
-#st-social li#share:hover { background: url(../images/st-sprite_home.png?v=20150803) -204px -25px no-repeat; }
-#st-social li#facebook:hover { background: url(../images/st-sprite_home.png?v=20150803) -334px -25px no-repeat; }
-#st-social li#twitter:hover { background: url(../images/st-sprite_home.png?v=20150803) -464px -25px no-repeat; }
+#st-social li#share:hover { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -204px -25px no-repeat; }
+#st-social li#facebook:hover { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -334px -25px no-repeat; }
+#st-social li#twitter:hover { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -464px -25px no-repeat; }
 
-#st-social li#share:active { background: url(../images/st-sprite_home.png?v=20150803) -204px -50px no-repeat; }
-#st-social li#facebook:active { background: url(../images/st-sprite_home.png?v=20150803) -334px -50px no-repeat; }
-#st-social li#twitter:active { background: url(../images/st-sprite_home.png?v=20150803) -464px -50px no-repeat; }
+#st-social li#share:active { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -204px -50px no-repeat; }
+#st-social li#facebook:active { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -334px -50px no-repeat; }
+#st-social li#twitter:active { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -464px -50px no-repeat; }
 
 #st-social li#share a { margin: 2px 0 0 -5px; }
 #st-social li#facebook a { margin: 2px 0 0 8px; }
@@ -269,24 +269,24 @@ div.no-flash-us .chrome-message {
 	text-decoration: underline;
 }
 
-#share-menu ul li.share-fb { background: url(../images/share-fb.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-de { background: url(../images/share-de.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-tw { background: url(../images/share-tw.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-su { background: url(../images/share-su.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-ms { background: url(../images/share-ms.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-mx { background: url(../images/share-mx.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-li { background: url(../images/share-li.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-rd { background: url(../images/share-rd.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-dg { background: url(../images/share-dg.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-em { background: url(../images/share-em.gif) left no-repeat; padding-left: 22px; }
-#share-menu ul li.share-pn { background: url(../images/share-pn.png) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-fb { background: url(https://stun3.github.io/speedtest/images/share-fb.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-de { background: url(https://stun3.github.io/speedtest/images/share-de.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-tw { background: url(https://stun3.github.io/speedtest/images/share-tw.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-su { background: url(https://stun3.github.io/speedtest/images/share-su.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-ms { background: url(https://stun3.github.io/speedtest/images/share-ms.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-mx { background: url(https://stun3.github.io/speedtest/images/share-mx.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-li { background: url(https://stun3.github.io/speedtest/images/share-li.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-rd { background: url(https://stun3.github.io/speedtest/images/share-rd.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-dg { background: url(https://stun3.github.io/speedtest/images/share-dg.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-em { background: url(https://stun3.github.io/speedtest/images/share-em.gif) left no-repeat; padding-left: 22px; }
+#share-menu ul li.share-pn { background: url(https://stun3.github.io/speedtest/images/share-pn.png) left no-repeat; padding-left: 22px; }
 
 #share-menu .close a {
 	width: 12px;
 	height: 12px;
 	display: block;
 	text-indent: -9999px;
-	background: transparent url(../images/close-button.png) top left no-repeat;
+	background: transparent url(https://stun3.github.io/speedtest/images/close-button.png) top left no-repeat;
 	position: absolute;
 	top: 8px;
 	right: 8px;
@@ -301,7 +301,7 @@ div.no-flash-us .chrome-message {
 #st-actions ul li {
 	width: 420px;
 	padding: 4px 0 4px 0;
-	/*background: url(../images/bg-home-actions-divider.png) 0 100% no-repeat;*/
+	/*background: url(https://stun3.github.io/speedtest/images/bg-home-actions-divider.png) 0 100% no-repeat;*/
 	border-bottom: 1px solid #c1c4c1;
 	height: 75px;
 }
@@ -321,10 +321,10 @@ div.no-flash-us .chrome-message {
 #st-actions ul li img { float: left; margin: -9px 0 0 0; }
 #st-actions ul li.st-actions-last { border-bottom: none; }
 
-#st-actions ul li#icon-become-a-host { background: url(../images/st-sprite_home.png?v=20150803) -737px -141px no-repeat; padding-left: 10px; }
-#st-actions ul li#icon-st-mobile { background: url(../images/st-sprite_home.png?v=20150803) -737px 9px no-repeat; padding-left: 10px; }
-#st-actions ul li#icon-st-mini { background: url(../images/st-sprite_home.png?v=20150803) -739px -292px no-repeat; padding-left: 10px; }
-#st-actions ul li#icon-st-sw { background: url(../images/icon-home-sw.png) left no-repeat; padding-left: 10px; }
+#st-actions ul li#icon-become-a-host { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -737px -141px no-repeat; padding-left: 10px; }
+#st-actions ul li#icon-st-mobile { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -737px 9px no-repeat; padding-left: 10px; }
+#st-actions ul li#icon-st-mini { background: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803) -739px -292px no-repeat; padding-left: 10px; }
+#st-actions ul li#icon-st-sw { background: url(https://stun3.github.io/speedtest/images/icon-home-sw.png) left no-repeat; padding-left: 10px; }
 
 #st-actions ul li#icon-become-a-host:hover { background-color: #c4caca; }
 #st-actions ul li#icon-st-mobile:hover { background-color: #c4caca; }
@@ -347,7 +347,7 @@ div.no-flash-us .chrome-message {
 .lowerboard #st-actions ul li#icon-st-mobile,
 .lowerboard #st-actions ul li#icon-st-mini,
 .lowerboard #st-actions ul li#icon-st-sw
-{ background-image: url(../images/st-sprite_home.png?v=20150803); }
+{ background-image: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803); }
 
 /* new lowerboard code */
 
@@ -378,7 +378,7 @@ div.no-flash-us .chrome-message {
 	display: block;
 	width: 56px;
 	height: 56px;
-	background-image: url(../images/st-sprite_home.png?v=20150803);
+	background-image: url(https://stun3.github.io/speedtest/images/st-sprite_home.png?v=20150803);
 }
 
 .lower-features-icon-star i {
@@ -482,7 +482,7 @@ div.no-flash-us .chrome-message {
 	padding: 0 2.5em 0 120px;
 	line-height: 1.4;
 	margin: 1em 1em 1em 0;
-	background-image: url(../images/lower-simple-sprite.png);
+	background-image: url(https://stun3.github.io/speedtest/images/lower-simple-sprite.png);
 	background-repeat: no-repeat;
 	min-height: 95px;
 }
@@ -554,7 +554,7 @@ div.no-flash-us .chrome-message {
 	display: block;
 	width: 100%;
 	height: 100%;
-	background-image: url(../images/ookla_black_180.png);
+	background-image: url(https://stun3.github.io/speedtest/images/ookla_black_180.png);
 	background-position: -6px 0;
 	background-repeat: no-repeat;
 	-webkit-background-size: 180px 66px;
@@ -648,7 +648,7 @@ div.no-flash-us .chrome-message {
 	top: 20px;
 	left: 99px;
 	color: #33ccff;
-	background: url(../images/st-sprite.png) 0 -280px no-repeat;
+	background: url(https://stun3.github.io/speedtest/images/st-sprite.png) 0 -280px no-repeat;
 	width: 172px;
 	height: 42px;
 }
@@ -670,14 +670,14 @@ div.no-flash-us .chrome-message {
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
 	text-align: center;
-	background: url(../images/st-sprite.png) -32px -285px no-repeat;
+	background: url(https://stun3.github.io/speedtest/images/st-sprite.png) -32px -285px no-repeat;
 }
 
-#form-submit-edit-newsletter input:hover { background: url(../images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
-#form-submit-edit-newsletter input:active { background: url(../images/st-sprite.png) -378px -285px no-repeat; }
+#form-submit-edit-newsletter input:hover { background: url(https://stun3.github.io/speedtest/images/st-sprite.png) -205px -285px no-repeat; cursor: pointer; }
+#form-submit-edit-newsletter input:active { background: url(https://stun3.github.io/speedtest/images/st-sprite.png) -378px -285px no-repeat; }
 
 @media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
 	.lower-bullets-no-tower-adjust .left-half h3 a {
-		background-image: url(../images/ookla_black_180@2x.png);
+		background-image: url(https://stun3.github.io/speedtest/images/ookla_black_180@2x.png);
 	}
 }
