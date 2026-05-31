@@ -17,6 +17,33 @@
 
 	<link rel="stylesheet" type="text/css" href="css/layout.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/global.css" media="screen" />
+	<style>
+		/* 1. Reset the layout containers to contain absolute elements properly */
+		#container, 
+		#content, 
+		#settings-main, 
+		.panel-body, 
+		.panel-lower,
+		#global-settings-form {
+			position: relative !important;
+			height: auto !important;
+			overflow: visible !important;
+		}
+
+		/* 2. Break the broken absolute rules forcing the button into the footer */
+		#settings input[type="submit"],
+		#settings [id*="form-submit"],
+		#settings .form-submit {
+			position: relative !important;
+			top: auto !important;
+			bottom: auto !important;
+			left: auto !important;
+			right: auto !important;
+			margin: 40px auto 20px auto !important;
+			display: block !important;
+			clear: both !important;
+		}
+	</style>
 
 	<!--[if lte IE 6]>
 		<link rel="stylesheet" type="text/css" href="css/ie6.css?v=2012-11-23" media="screen" />
