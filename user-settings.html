@@ -18,32 +18,24 @@
 	<link rel="stylesheet" type="text/css" href="css/layout.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/global.css" media="screen" />
 	<style>
-		/* 1. Reset the layout containers to contain absolute elements properly */
-		#container, 
-		#content, 
-		#settings-main, 
-		.panel-body, 
-		.panel-lower,
-		#global-settings-form {
-			position: relative !important;
-			height: auto !important;
-			overflow: visible !important;
-		}
+    /* 1. Safely anchor the form without touching global layout heights */
+    .panel-lower form {
+        position: relative !important;
+        display: block !important;
+        padding-bottom: 60px !important; /* Creates clean space at the bottom for the button */
+    }
 
-		/* 2. Break the broken absolute rules forcing the button into the footer */
-		#settings input[type="submit"],
-		#settings [id*="form-submit"],
-		#settings .form-submit {
-			position: relative !important;
-			top: auto !important;
-			bottom: auto !important;
-			left: auto !important;
-			right: auto !important;
-			margin: 40px auto 20px auto !important;
-			display: block !important;
-			clear: both !important;
-		}
-	</style>
+    /* 2. Snap the global settings save button back inside its own box */
+    .panel-lower div[id^="form-submit"],
+    .panel-lower input[type="submit"] {
+        position: absolute !important;
+        bottom: 10px !important;
+        left: 20px !important;
+        top: auto !important;
+        right: auto !important;
+        margin: 0 !important;
+    }
+</style>
 
 	<!--[if lte IE 6]>
 		<link rel="stylesheet" type="text/css" href="css/ie6.css?v=2012-11-23" media="screen" />
