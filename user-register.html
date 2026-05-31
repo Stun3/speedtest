@@ -42,67 +42,6 @@
 	<meta name="twitter:app:id:iphone" content="300704847">
 	<meta name="twitter:app:id:ipad" content="300704847">
 	<meta name="twitter:app:id:googleplay" content="org.zwanoo.android.speedtest">
-	<script type="text/javascript">
-		window.isBlocked = true;
-	</script>
-	<script type="text/javascript" src="javascript/ads.js"></script>
-
-	<script type='text/javascript'>
-	// load the google script.
-	var googletag = googletag || {};
-	googletag.cmd = googletag.cmd || [];
-	
-	addScript("//www.googletagservices.com/tag/js/gpt.js");
-</script>
-
-
-	<script type="text/javascript">  
-  var ads;
-  var AdManager = window.OOKLA.AdManager;
-  // param to force internal adblock house ads for testing.
-  if (window.location.search.indexOf('adBlocked') !== -1) {
-    window.isBlocked = true;
-  }
-  // check if criteo should be used. 
-  if (window.abp && {CRITEO_ENABLED}) {  
-    ads = AdManager.criteo({DFP_ZONES}, {DFP_TARGETS});
-    ads.display("{DFP_DISPLAY}");
-  } else {
-    if (true && !window.isBlocked) {
-      ads = AdManager.dfpPrebid({DFP_ZONES}, {DFP_TARGETS}, {"disableInitialLoad": true});
-    } else {
-      ads = AdManager.internal({DFP_ZONES}, {DFP_TARGETS});
-    }
-    
-    // set dfp targeting
-    ads.target('hostname', 'speedtest.net');
-    ads.display("{DFP_DISPLAY}");
-    
-    // bucket test
-    var bucket = [1, 2, 3, 4, 5];
-    ads.target("bucket_test", bucket[Math.floor(Math.random() * bucket.length)]);
-  }
-
-</script>
-
-	
-	
-
-	
-	
-	</head>
-	<body id="register" class="">
-
-		<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MX6CBT"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MX6CBT');</script>
-<!-- End Google Tag Manager -->
 
 		<div id="consent_blackbar"></div>
 
